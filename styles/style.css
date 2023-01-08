@@ -1,0 +1,27 @@
+
+img,
+h1 {
+  z-index: 1;
+  color:steelblue
+}
+
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(14, 1);
+  grid-gap: 40px;
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: darkgreen;
+}
+
+footer {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color:blue;
+}
+
+body {
+    text-align: center;
+}
