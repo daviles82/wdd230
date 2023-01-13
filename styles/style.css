@@ -6,21 +6,21 @@ body {
 h1 {
   z-index: 1;
   color: blueviolet;
-  margin: 0 auto;
-  font-size: 40px;
-  padding: 100px;
-  
+  margin: auto;
+  font-size: 25px;  
 }
 
 img {
   padding: 10px;
+  height: 280px;
+  width: 170px;
   
 }
 
 #outro-box {
   background-color: #a2d2ff;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(14, 1fr);
   height: 100px;
   margin-top: 10px;
   margin-bottom: 50px;
