@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+header, footer {
+  text-align: center;
+}
+
+
+
+main {
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr;
+  
+}
+
+
+body {
+  margin: 0 auto;
+
+}
+
+li {
+  list-style: none;
+}
+
+a:visited, a:link {
+  color: blue;
+}
+
+a:hover, a:focus {
+  color: darkred ;
+}
+
+img, h1, h2, h3, h4, div {
+  z-index: 1;
+  object-fit: cover;
+
+}
+
+img {
+  margin: 0 auto;
+
+}
+
+
+
+.apple-home, .apple-macbookpro, .apple-macmini {
+  text-align: center;
+  background-color: lightblue;
+  border: 2px solid blue;
+  color: blue;
+  z-index: 0;
+  box-sizing: inherit;
+  width: 20rem;
+
+  
+}
+
+#footer-box, #intro-box {
+  width: auto;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color:blue;
+  z-index: 0;
+  box-sizing: inherit;
+}
+
+
+@media only screen and (min-width: 40rem) {
+  main {
+    grid-template-columns: 1fr;
+  }
+} 

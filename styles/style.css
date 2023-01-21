@@ -17,6 +17,10 @@ img {
   
 }
 
+ul {
+  list-style: none;
+}
+
 #outro-box {
   background-color: #a2d2ff;
   display: grid;
