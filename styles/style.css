@@ -26,12 +26,13 @@ ul {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   height: 100px;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 750px;
   color: black;
   z-index: 0;
-  display: flex;
+  display:flex;
+  font-size: 15px;
 }
 
 #intro-box {
