@@ -55,11 +55,15 @@ nav {
 #outro-box {
   background-color: steelblue;
   z-index: 0;
-  font-size: 20px;
   padding: 20px;
   border-radius: 25px;
   box-shadow: 4px 4px 6px #000000;
   text-align: center;
+}
+
+#yearnameschool {
+  font-size: 20px;
+  color: white;
 }
 
 #datemodified {
@@ -68,7 +72,6 @@ nav {
 }
 
 footer {
-  color: white;
   z-index: 1;
 }
 
