@@ -6,7 +6,7 @@ main {
 }
 
 body {
-  max-width: 60rem;
+  max-width: 66rem;
   min-width: 344px;
 }
 
@@ -37,10 +37,8 @@ p {
   background-color: rgb(133, 166, 177);
   color: black;
   z-index: 0;
-  max-width: max-content;
-  justify-content: space-around;
-  margin: 5px;
-
+  margin: 1px;
+  min-width: 20rem;
 }
 
 #footer-box, #intro-box {
@@ -74,7 +72,6 @@ div {
 
   #apple-macmini {
     grid-column: span 2;
-    flex-flow: column;
   }
 }
 
