@@ -1,8 +1,8 @@
 main {
   display: grid;
-  justify-items: center;
   grid-template-columns: 1fr;
   min-width: 20rem;
+  text-align: center;
 }
 
 body {
@@ -11,48 +11,76 @@ body {
 }
 
 a:visited, a:link {
-  color: blue;
+  color: black;
 }
 
 a:hover, a:focus {
-  color: darkred ;
+  color: blue;
+  font-size: 1.2em;
 }
 
-img, h1, h2, h3, h4, div {
-  z-index: 1;
-  text-align: center;
+#apple-home:hover, #apple-macbookpro:hover, #apple-macmini:hover {
+  background-color: white;
+} 
+
+
+h2, h3, h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding-top: 10px;
 }
 
 img {
   max-width: 100%;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  padding-top: 5px;
+  margin-top: 5px;
+  font-size: 18px;
 }
 
 p {
-  font-size:inherit;
-  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.site {
+  padding-top: 5px;
+  margin-top: 5px;
 }
 
 #apple-home, #apple-macbookpro, #apple-macmini {
-  text-align: center;
   background-color: rgb(133, 166, 177);
   color: black;
   z-index: 0;
   margin: 1px;
   min-width: 20rem;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 #footer-box, #intro-box {
   background-color: lightseagreen;
   z-index: 0;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 25px;
-  color: white;
+  color: black;
   padding: 10px;
+  text-align: center;
 }
 
+
 div {
-  font-size: 20px;
+  font-size: 18px;
+  padding-top: 5px;
+  margin-top: 5px;
 }
 
 #yearnameschool {
@@ -61,27 +89,4 @@ div {
 
 #datemodified {
   font-size: 15px;
-}
-
-/* medium css */
-@media only screen and (min-width: 40rem) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #apple-macmini {
-    grid-column: span 2;
-  }
-}
-
-/* large css */
-@media only screen and (min-width: 60rem) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  #apple-macmini {
-    grid-column: span 1;
-  }
 }
