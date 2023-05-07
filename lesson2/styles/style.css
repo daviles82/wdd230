@@ -8,6 +8,7 @@ main {
 body {
   max-width: 66rem;
   min-width: 344px;
+  margin: 1.25rem auto;
 }
 
 a:visited, a:link {
