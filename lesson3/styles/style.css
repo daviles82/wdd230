@@ -1,0 +1,142 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ysabeau', sans-serif; */
+/* CSS HEX
+--candy-apple-red: #fc2913ff;
+--battleship-gray: #98998bff;
+--turkey-red: #b11500ff;
+--lemon-chiffon: #fef9c6ff;
+--aureolin: #fbe301ff; */
+
+html {
+  max-width: 1200px;
+  min-width: 420px;
+  margin: 1.25rem auto;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+th {
+  background-color: #fef9c6ff;
+}
+
+table, tr, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 0 auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.sampleheader {
+  background-color:  #98998bff;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  background-color:  #98998bff;
+  text-align: center;
+  padding: 10px;
+  z-index: 0;
+
+}
+
+#logo {
+  display: flex;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+nav {
+  text-align: center;
+  font-size: 15px;
+  padding: 1px;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+#yearandabout, #datemodified {
+  text-align: center;
+  font-size: 15px;
+}
+
+.sitename {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  color: #fc2913ff;
+  background-color: #fbe301ff;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+  padding: 10px;
+}
+.samplemain {
+  font-size: 15px;
+
+}
+
+.samplefooter {
+  font-size: 15px;
+  background-color:  #98998bff;
+}
+.samplenav {
+  background-color: #fbe301ff;
+  font-size: 15px;
+}
+
+a:hover, a:focus {
+  color: #fbe301ff;
+  font-size: 1.2em;
+  background-color: #fc2913ff;
+}
+
+h2, h3, h4 {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #98998bff;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#showlogo {
+  margin: auto;
+  max-width: 300px;
+}
+
+#currentSize {
+  font-size: 20px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  font-size: 15px;
+}
+
+div {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+

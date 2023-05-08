@@ -1,0 +1,90 @@
+<!-- 3. "design.html" - reference your color schema and typography choices 
+  for the specific the elements/content to which they will apply. Be 
+  specific and show examples given that these HTML documents are supported 
+  with CSS styling. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brookshire Chamber of Commerce Design Elements.">
+  <title>Brookshire Chamber of Commerce Design Elements</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Ysabeau&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  
+</head>
+<body>
+  <header>
+    <img id="logo" src="images/logo.PNG" alt="logo">
+    <div class="sitename">Brookshire Chamber of Commerce</div> 
+  </header>      
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="target-audience.html">Target Audience</a>
+    <a href="design.html">Design Elements</a>
+  </nav>
+  <main>
+    <h2>Color Schema & Typography</h2>
+    <!-- Coolors Palette Widget -->
+    <script src="https://coolors.co/palette-widget/widget.js"></script>
+    <script data-id="05225887325576138">new CoolorsPaletteWidget("05225887325576138", ["fc2913","98998b","b11500","fef9c6","fbe301"],"Brookshire Website"); </script>
+    <section>
+      <table class="chart">
+        <tr>
+          <th>Location</th>
+          <th>Font</th>
+          <th>Size</th>
+          <th>Color</th>
+          <th>Sample</th>
+        </tr>
+        <tr>
+          <td>Header</td>
+          <td>Ysabeau</td>
+          <td>20px</td>
+          <td class="sampleheader">battleship-gray</td>
+          <td class="sampleheader" >Sample</td>
+        </tr>
+          <td>Footer</td>
+          <td>Ysabeau</td>
+          <td>15px</td>
+          <td class="samplefooter">battleship-gray</td>
+          <td class="samplefooter" >Sample</td>
+        </tr>
+        <tr>
+          <td>Main</td>
+          <td>Ysabeau</td>
+          <td>15px</td>
+          <td>none</td>
+          <td class="samplemain" >Sample</td>
+        </tr>
+        <tr>
+          <td>Nav</td>
+          <td>Ysabeau</td>
+          <td>15px</td>
+          <td class="samplenav" >aureolin</td>
+          <td class="samplenav" >Sample</td>
+        </tr>
+      </table>
+    </section>
+    <h3>This graph applies to normal view</h3>
+  </main>
+  <footer>
+    <div>
+      <p id="yearandabout"> ©️ <span id="currentyear"></span> .:|:. Site owner David Aviles .:|:. Brookshire </p>
+      <p id="datemodified"> Last Modified =<span id="modifiedtime" ></span> </p>
+    </div>
+  </footer>
+  <script src="scripts/app.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,50 @@
+@media only screen and (min-width: 40rem) {
+  #logo {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px #000000;
+  }
+
+  #showlogo {
+    max-width: 400px;
+
+  }
+  header, footer{
+    border-radius: 25px;
+    box-shadow: 0 0 30px #000000;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+  }
+  a {
+    box-shadow: 0 0 10px #000000;
+    border-radius: 25px;
+    outline: none;
+  }
+  .sitename {
+    font-size: 40px;
+  }
+  #yearandabout, #datemodified {
+    font-size: 18px;
+  }
+  h2, h3, h4, p, div{
+    font-size: 25px;
+  }
+  ul {
+    font-size: 25px;
+  }
+  table, tr, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+  }
+
+}
