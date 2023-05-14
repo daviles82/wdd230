@@ -8,7 +8,7 @@ font-family: 'Ysabeau', sans-serif; */
 --lemon-chiffon: #fef9c6ff;
 --aureolin: #fbe301ff; */
 
-html {
+body {
   max-width: 1200px;
   min-width: 420px;
   margin: 1.25rem auto;
@@ -63,9 +63,9 @@ nav {
   text-align: center;
   font-size: 15px;
   padding: 1px;
-  display: grid;
-  grid-template-columns: 1fr;
-
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 #yearandabout, #datemodified {
@@ -84,9 +84,9 @@ a {
   color: #b11500ff;
   background-color: #fbe301ff;
   display: flex;
-  flex-direction: column;
   outline: 1px solid red;
   padding: 10px;
+  justify-content: space-evenly;
 }
 .samplemain {
   font-size: 15px;

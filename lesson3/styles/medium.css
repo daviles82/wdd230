@@ -16,14 +16,17 @@
     box-shadow: 0 0 30px #000000;
   }
   nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     font-size: 25px;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
   }
   a {
     box-shadow: 0 0 10px #000000;
     border-radius: 25px;
     outline: none;
+    flex: 1 1 100%;
   }
   .sitename {
     font-size: 40px;
