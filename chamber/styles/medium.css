@@ -1,0 +1,73 @@
+@media only screen and (min-width: 40rem) {
+  #logo {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    border: none;
+    background: transparent;
+  }
+  .logo {
+    display: flex;
+    padding: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    background: transparent;
+  }
+
+  nav button {display: none;}
+
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0,0,0, 0.3);
+    box-shadow: 0 0 30px #000000;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0, 0.3);
+  }
+
+  #wireframe {
+    display: none;
+  }
+  #wireframemedium {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    max-width: 40rem;
+  }
+  time {
+    font-size: 12px;
+  }
+
+  header, footer{
+    box-shadow: 0 0 10px #000000;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  nav {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    box-shadow: 0 0 20px #000000;
+  }
+
+  .sitename {
+    font-size: 30px;
+  }
+
+  #yearandabout, #datemodified {
+    font-size: 18px;
+  }
+
+  #wireframephone {
+    display: none;
+  }
+}
