@@ -8,7 +8,7 @@ const options = { weekday: 'long', day: 'numeric' , month: 'long', year: 'numeri
 const today = new Date();
 const current = today.toLocaleDateString("en-UK", options);
 
-console.log(document.querySelector("time"))
+console.log(document.querySelector("#time"))
 document.querySelector("time").textContent = current
 
 
