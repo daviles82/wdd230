@@ -97,7 +97,6 @@ header {
   justify-content: center;
 }
 #logo {
-  /* display: flex; */
   margin: 0 auto;
   padding: 0;
   max-width: 100px;
@@ -106,7 +105,6 @@ header {
 }
 
 .logo {
-  display: inline;
   padding-left: 140px;
   padding-right: 10px;
   max-width: 20px;
