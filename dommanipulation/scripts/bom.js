@@ -21,16 +21,18 @@ button.addEventListener('click', () => {
 
     const listChapters = document.createElement('li');
     const listText = document.createElement('span');
-    const listBtn = document.createElement('button');
+    const deleteBtn = document.createElement('button');
 
     listChapters.appendChild(listText);
     listText.textContent = myChapter;
-    listChapters.appendChild(listBtn);
-    listBtn.textContent = 'X';
+    listChapters.appendChild(deleteBtn);
+    deleteBtn.textContent = 'X';
     list.appendChild(listChapters);
+    deleteBtn.style.color = "red"
+    listChapters.style.color = "green"
 
   
-    listBtn.addEventListener('click', () => {
+    deleteBtn.addEventListener('click', () => {
       list.removeChild(listChapters);
     });
 
