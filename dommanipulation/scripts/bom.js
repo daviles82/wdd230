@@ -11,12 +11,17 @@
 
 
 
-const input = document.querySelector('input')
-const button = document.querySelector('button')
-const list = document.querySelector('#list')
+const input = document.querySelector('#favchap');
+const button = document.querySelector('button');
+const list = document.querySelector('#list');
+
 
 button.addEventListener('click', () => {
     const myChapter = input.value;
+    if (myChapter === '') {
+      alert('Please enter a value');
+      return;
+    }
     input.value = '';
 
     const listChapters = document.createElement('li');
@@ -27,9 +32,10 @@ button.addEventListener('click', () => {
     listText.textContent = myChapter;
     listChapters.appendChild(deleteBtn);
     deleteBtn.textContent = 'X';
+
     list.appendChild(listChapters);
-    deleteBtn.style.color = "red"
-    listChapters.style.color = "green"
+    deleteBtn.style.color = "red";
+    listChapters.style.color = "green";
 
   
     deleteBtn.addEventListener('click', () => {
