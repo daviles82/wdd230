@@ -15,6 +15,9 @@ main {
   height: 1000px;
   margin-top: 1%;
 }
+h1, h2 {
+  font-size: 20px;
+}
 
 #calltoaction {
   position: absolute;

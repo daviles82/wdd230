@@ -20,6 +20,10 @@ main {
   padding: 15px;
 }
 
+h1, h2 {
+  font-size: 16px;
+}
+
 body {
   min-width: 420px;
   margin: 1.25rem auto;

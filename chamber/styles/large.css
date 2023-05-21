@@ -17,6 +17,9 @@ main {
 body {
   max-width: 1200px;
 }
+h1, h2{
+  font-size: 25px;
+}
 #calltoaction {
   position: absolute;
   top: 0%;
