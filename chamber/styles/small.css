@@ -135,3 +135,7 @@ footer {
 #stone {
   display: none;
 }
+
+#location {
+  color: #000000;
+}
