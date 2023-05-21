@@ -8,6 +8,10 @@
   width: auto;
   background-color: rgba(152, 153, 139, 0.7)
 }
+
+#montuebanner {
+  font-size: 20px;
+}
 main {
   position: relative;
   height: 1500px;

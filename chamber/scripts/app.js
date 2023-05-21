@@ -19,3 +19,10 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+const today2 = new Date();
+const dayOfWeek = today.getDay();
+
+if (dayOfWeek === 1 || dayOfWeek === 2) {
+  document.getElementById("montuebanner").innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
