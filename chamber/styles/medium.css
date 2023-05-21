@@ -196,8 +196,8 @@ main {
   object-fit: cover;
 }
 
-time {
-  font-size: 12px;
+#time {
+  font-size: 14px;
 }
 
 header, footer{

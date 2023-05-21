@@ -74,7 +74,7 @@ nav button {
   color: black;
 }
 
-time {
+#time {
   font-size: 10px;
   display: flex;
   justify-content: flex-end;

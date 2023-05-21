@@ -9,7 +9,7 @@ const today = new Date();
 const current = today.toLocaleDateString("en-UK", options);
 
 console.log(document.querySelector("#time"))
-document.querySelector("time").textContent = current
+document.querySelector("#time").textContent = current
 
 
 function toggleMenu() {
