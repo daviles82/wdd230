@@ -1,73 +1,219 @@
 @media only screen and (min-width: 40rem) {
-  #logo {
-    display: flex;
-    max-width: 200px;
-    max-height: 200px;
-    border: none;
-    background: transparent;
-  }
-  .logo {
-    display: flex;
-    padding: 10px;
-    max-width: 30px;
-    max-height: 30px;
-    background: transparent;
-  }
 
-  nav button {display: none;}
 
-  nav ul#primaryNav {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0, 0.3);
-    box-shadow: 0 0 30px #000000;
-  }
+#calltoaction, #news, #event1, #event2, #weather, #join, #spotlight1, #spotlight2, #spotlight3, #hero {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  height: 180px;
+  width: auto;
+  background-color: rgba(152, 153, 139, 0.4)
+}
 
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0,0,0, 0.3);
-  }
+main {
+  position: relative;
+  height: 1000px;
+  margin-top: 1%;
+}
 
-  #wireframe {
-    display: none;
-  }
-  #wireframemedium {
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    max-width: 40rem;
-  }
-  time {
-    font-size: 12px;
-  }
+#calltoaction {
+  position: absolute;
+  top: 0%;
+  bottom: 80%;
+  left: 0%;
+  right: 51%;
+  overflow: hidden;
+}
+#calltoaction:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
 
-  header, footer{
-    box-shadow: 0 0 10px #000000;
-    margin: 0;
-    padding: 0;
 
-  }
+#news {
+  position: absolute;
+  top: 0%;
+  bottom: 80%;
+  right: 0%;
+  left: 51%;
+  overflow: hidden;
+}
+#news:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
 
-  nav {
-    display: flex;
-    font-size: 20px;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    box-shadow: 0 0 20px #000000;
-  }
+#event1 {
+  position: absolute;
+  top: 20%;
+  bottom: 60%;
+  left: 0%;
+  right: 51%;
+  overflow: hidden;
+}
+#event1:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
 
-  .sitename {
-    font-size: 30px;
-  }
+#event2 {
+  position: absolute;
+  top: 20%;
+  bottom: 60%;
+  right: 0%;
+  left: 51%;
+  overflow: hidden;
+}
+#event2:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
 
-  #yearandabout, #datemodified {
-    font-size: 18px;
-  }
+#weather {
+  position: absolute;
+  top: 40%;
+  bottom: 40%;
+  left: 0%;
+  right: 51%;
+  overflow: hidden;
+}
+#weather:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
 
-  #wireframephone {
-    display: none;
-  }
+#join {
+  position: absolute;
+  top: 40%;
+  bottom: 40%;
+  right: 0%;
+  left: 51%;
+  overflow: hidden;
+}
+#join:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
+#spotlight1 {
+  position: absolute;
+  top: 60%;
+  bottom: 20%;
+  left: 0%;
+  right: 51%;
+  overflow: hidden;
+}
+#spotlight1:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
+
+#spotlight2 {
+  position: absolute;
+  top: 60%;
+  bottom: 20%;
+  right: 0%;
+  left: 51%;
+  overflow: hidden;
+}
+#spotlight2:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
+
+#spotlight3 {
+  position: absolute;
+  top: 80%;
+  bottom: 0%;
+  left: 0%;
+  right: 51%;
+  overflow: hidden;
+}
+#spotlight3:hover {
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: #98998bff;
+  height: fit-content;
+}
+
+#hero {
+  position: absolute;
+  top: 80%;
+  bottom: 0%;
+  right: 0%;
+  left: 51%;
+  overflow: hidden;
+}
+#hero:hover {
+  top: 75%;
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  background-color: white;
+  height: fit-content;
+}
+
+#logo {
+  display: flex;
+  max-width: 200px;
+  max-height: 200px;
+  border: none;
+  background: transparent;
+}
+#facebook, #twitter {
+  max-width: 20px;
+  max-height: 20px;
+  background: transparent;
+}
+
+#stone {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+time {
+  font-size: 12px;
+}
+
+header, footer{
+  margin: 0;
+  padding: 0;
+}
+
+.sitename {
+  font-size: 30px;
+}
+
+#yearandabout, #datemodified {
+  font-size: 18px;
+}
+
+#stone {
+  display: inherit;
+}
 }
