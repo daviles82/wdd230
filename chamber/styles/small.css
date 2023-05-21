@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #606060;
   color: white;
 }
 nav button {
