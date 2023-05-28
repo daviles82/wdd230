@@ -164,6 +164,7 @@ h1, h2 {
   background: radial-gradient(blue, lightblue);
   border: 1px solid blue;
   box-shadow: 0 0 30px blue;
+  color: white;
 }
 
 /* MAIN SECTIONS */
