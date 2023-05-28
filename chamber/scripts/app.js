@@ -20,6 +20,8 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
+
+// banner
 const today2 = new Date();
 const dayOfWeek = today.getDay();
 

@@ -1,199 +1,24 @@
 @media only screen and (min-width: 905px) {
 
-#calltoaction, #news, #event1, #event2, #weather, #join, #spotlight1, #spotlight2, #spotlight3, #hero {
-  font-size: 25px;
-  text-align: center;
-  justify-content: center;
-  height: 180px;
-  width: auto;
-  background-color: rgba(152, 153, 139, 0.7)
+/* ----------------------------------------------------------------------------------- */
+/* HEADER */
+
+header {
+  box-shadow: 0 0 20px #000000;
+}
+
+.sitename {
+  font-size: 40px;
 }
 
 #montuebanner {
   font-size: 20px;
 }
-main {
-  position: relative;
-  height: 1500px;
-  margin-top: 1%;
-  z-index: 0;
-}
-body {
-  max-width: 1200px;
-}
-h1, h2{
-  font-size: 25px;
-}
-#calltoaction {
-  position: absolute;
-  top: 0%;
-  bottom: 85.714%;
-  left: 0%;
-  right: 51%;
-  overflow: hidden;
-}
-#calltoaction:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
 
-#news {
-  position: absolute;
-  top: 0%;
-  bottom: 85.714%;
-  right: 0%;
-  left: 51%;
-  overflow: hidden;
-}
-#news:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
+/* HEADER */
+/* ----------------------------------------------------------------------------------- */
+/* NAVIGATION */
 
-#event1 {
-  position: absolute;
-  top: 14.284%;
-  bottom: 71.428%;
-  left: 0%;
-  right: 0%;
-  overflow: hidden;
-}
-#event1:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-
-#event2 {
-  position: absolute;
-  top: 28.57%;
-  bottom: 57.142%;
-  right: 0%;
-  left: 0%;
-  overflow: hidden;
-}
-#event2:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-
-#weather {
-  position: absolute;
-  top: 42.856%;
-  bottom: 42.856%;
-  left: 0%;
-  right: 51%;
-  overflow: hidden;
-}
-#weather:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-#join {
-  position: absolute;
-  top: 42.856%;
-  bottom: 42.856%;
-  right: 0%;
-  left: 51%;
-  overflow: hidden;
-}
-#join:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-#spotlight1 {
-  position: absolute;
-  top: 57.142%;
-  bottom: 28.57%;
-  left: 0%;
-  right: 51%;
-  overflow: hidden;
-}
-#spotlight1:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-
-#spotlight2 {
-  position: absolute;
-  top: 57.142%;
-  bottom: 28.57%;
-  right: 0%;
-  left: 51%;
-  overflow: hidden;
-}
-#spotlight2:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-
-#spotlight3 {
-  position: absolute;
-  top: 71.428%;
-  bottom: 14.284%;
-  left: 0%;
-  right: 0%;
-  overflow: hidden;
-}
-#spotlight3:hover {
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: #98998bff;
-  height: fit-content;
-}
-
-#hero {
-  position: absolute;
-  top: 85.714%;
-  bottom: 0%;
-  right: 0%;
-  left: 0%;
-  overflow: hidden;
-  font-size: 20px;
-  color: #000000;
-}
-#hero:hover {
-  top: 75%;
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  background-color: white;
-  height: fit-content;
-}
-
-#stone {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#stone:hover {
-  opacity: 0.6;
-}
 nav ul li a {
   padding: 1.5rem 3rem;
 }
@@ -201,6 +26,7 @@ nav ul li a {
 nav ul li {
   display: flex;
 }
+
 nav button {display: none;}
 
 nav ul#primaryNav {
@@ -214,6 +40,7 @@ nav ul li a {
   border: none;
   border-right: 1px solid rgba(0,0,0, 0.3);
 }
+
 nav {
   display: flex;
   font-size: 18px;
@@ -224,8 +51,207 @@ nav {
 }
 
 
-.sitename {
-  font-size: 40px;
+/* NAVIGATION */
+/* ----------------------------------------------------------------------------------- */
+/* MAIN */
+
+body {
+  max-width: 1500px;
+}
+
+main {
+  position: relative;
+  height: 1100px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+h1, h2{
+  font-size: 25px;
+}
+
+#news, #event1, #weather, #join, #spotlight1, #spotlight2, #spotlight3{
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  background-color: rgba(152, 153, 139, 0.7);
+  height: 340px;
+  display: block;
+  margin: 5px;
+}
+
+/* MAIN */
+/* ----------------------------------------------------------------------------------- */
+/* MAIN SECTIONS */
+
+#spotlights {
+  position: absolute;
+  top: 0%;
+  bottom: 100%;
+  right: 0%;
+  left: 75%;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  background-color: rgba(152, 153, 139, 0.7);
+  height: 1092px;
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+}
+
+#spotlight1 {
+  flex: 1;
+  overflow: hidden;
+}
+
+#spotlight1:hover {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+  display: contents;
+}
+
+#spotlight2 {
+  flex: 1;
+  overflow: hidden;
+}
+
+#spotlight2:hover {
+  flex: auto;
+  width: 100%;
+  display: contents;
+  background-color: #98998bff;
+}
+
+#spotlight3 {
+  flex: 1;
+  overflow: hidden;
+}
+
+#spotlight3:hover {
+  flex: auto;
+  width: 100%;
+  display: contents;
+  background-color: #98998bff;
+}
+
+#event1 {
+  position: absolute;
+  top: 0%;
+  bottom: 33.3%;
+  right: 75%;
+  left: 0%;
+  overflow: hidden;
+  font-size: 20px;
+  color: #000000;
+}
+
+#event1:hover {
+  top: 0;
+  left: 0%;
+  right: 0%;
+  background-color: #98998bff;
+}
+
+#weather {
+  position: absolute;
+  top: 33.3%;
+  bottom: 66.6%;
+  left: 0%;
+  right: 75%;
+  overflow: hidden;
+}
+
+#weather:hover {
+  left: 0%;
+  right: 0%;
+  background-color: #98998bff;
+}
+
+#join {
+  position: absolute;
+  top: 66.6%;
+  bottom: 100%;
+  right: 75%;
+  left: 0%;
+  overflow: hidden;
+}
+
+#join:hover {
+  top: 33.3%;
+  bottom: 0%;
+  left: 0%;
+  right: 25%;
+  background-color: #98998bff;
+  height: fit-content;
+  z-index: 1;
+}
+
+#news {
+  position: absolute;
+  top: 66.6%;
+  bottom: 100%;
+  right: 25%;
+  left: 25%;
+  overflow: hidden;
+}
+
+#news:hover {
+  left: 0%;
+  right: 0%;
+  background-color: #98998bff;
+  height: fit-content;
+}
+
+#hero {
+  position: absolute;
+  top: 0%;
+  bottom: 66.6%;
+  left: 25%;
+  right: 25%;
+  overflow: hidden;
+  height: 715px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  background-color: rgba(152, 153, 139, 0.7);
+}
+
+#hero:hover {
+  left: 0%;
+  right: 0%;
+  background-color: #98998bff;
+}
+
+/* MAIN SECTIONS */
+/* ----------------------------------------------------------------------------------- */
+/* IMAGES */
+
+#stone {
+  float: inherit;
+  max-width: 80%;
+  object-fit: cover;
+}
+
+#hand {
+  float: right;
+  max-width: 60%;
+  object-fit: cover;
+}
+
+#babycow {
+  padding: 15px;
+  float: left;
+  max-width: 60%;
+  object-fit: cover;
 }
 
 #logo {
@@ -242,7 +268,22 @@ nav {
   background: transparent;
 }
 
-header, footer {
+/* IMAGES */
+/* ----------------------------------------------------------------------------------- */
+/* FOOTER */
+
+footer {
   box-shadow: 0 0 20px #000000;
 }
+
+/* FOOTER */
+/* ----------------------------------------------------------------------------------- */
+/* HIDDEN ON LARGE VIEW */
+
+#event2, #calltoaction {
+  display: none;
+}
+
+/* HIDDEN ON LARGE VIEW */
+/* ----------------------------------------------------------------------------------- */
 }

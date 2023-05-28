@@ -8,12 +8,18 @@ font-family: 'Ysabeau', sans-serif; */
 --lemon-chiffon: #fef9c6ff;
 --aureolin: #fbe301ff; */
 
-#calltoaction, #news, #event1, #event2, #weather, #join, #spotlight1, #spotlight2, #spotlight3, #hero {
-  display: block;
-  font-size: 14px;
-  text-align: center;
-  padding: 10px;
+/* ----------------------------------------------------------------------------------- */
+/* HEADER */
+
+header {
   box-shadow: 0 0 10px #000000;
+}
+
+.sitename {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
 }
 
 #montuebanner {
@@ -25,23 +31,44 @@ font-family: 'Ysabeau', sans-serif; */
   padding: 5px;
 }
 
-main {
-  padding: 15px;
+#logo {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100px;
+  max-height: 100px;
+  background: transparent;
 }
 
-h1, h2 {
-  font-size: 16px;
+#time {
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-body {
-  min-width: 420px;
-  margin: 1.25rem auto;
-  font-family: 'Ysabeau', sans-serif;
-  --candy-apple-red: #fc2913ff;
-  --battleship-gray: #98998bff;
-  --turkey-red: #b11500ff;
-  --lemon-chiffon: #fef9c6ff;
-  --aureolin: #fbe301ff;
+header {
+  display: flex;
+  background-color:  #98998bff;
+  text-align: center;
+  padding: 10px;
+  z-index: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* HEADER */
+/* ----------------------------------------------------------------------------------- */
+/* NAVIGATION */
+
+nav {
+  box-shadow: 0 0 10px #000000;
+}
+
+#facebook, #twitter {
+  max-width: 15px;
+  max-height: 15px;
+  background: transparent;
 }
 
 nav ul {display: none;}
@@ -56,6 +83,7 @@ nav ul.open {display: block;}
 nav {
   background-color: #98998bff;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -79,6 +107,7 @@ nav ul li.active a {
   background-color: #606060;
   color: white;
 }
+
 nav button {
   margin: .2rem 2vw;
   background: transparent;
@@ -87,57 +116,88 @@ nav button {
   color: black;
 }
 
-#time {
-  font-size: 10px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
+/* NAVIGATION */
+/* ----------------------------------------------------------------------------------- */
+/* MAIN */
 
 main {
   display: grid;
   grid-template-columns: 1fr;
+  padding: 15px;
 }
 
-header {
-  display: flex;
-  background-color:  #98998bff;
+body {
+  min-width: 420px;
+  margin: 1.25rem auto;
+  font-family: 'Ysabeau', sans-serif;
+  --candy-apple-red: #fc2913ff;
+  --battleship-gray: #98998bff;
+  --turkey-red: #b11500ff;
+  --lemon-chiffon: #fef9c6ff;
+  --aureolin: #fbe301ff;
+}
+
+#calltoaction, #news, #event1, #event2, #weather, #join, #hero, #spotlights {
+  display: block;
+  font-size: 14px;
   text-align: center;
   padding: 10px;
-  z-index: 0;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  box-shadow: 0 0 10px #000000;
+  margin: 10px;
 }
-#logo {
+
+#spotlight1, #spotlight2, #spotlight3 {
+  text-align: center;
+  box-shadow: 0 0 10px #000000;
   margin: 0 auto;
-  padding: 0;
+}
+
+h1, h2 {
+  font-size: 16px;
+}
+
+/* MAIN */
+/* ----------------------------------------------------------------------------------- */
+/* MAIN SECTIONS */
+
+#weather {
+  background: radial-gradient(blue, lightblue);
+  border: 1px solid blue;
+  box-shadow: 0 0 30px blue;
+}
+
+/* MAIN SECTIONS */
+/* ----------------------------------------------------------------------------------- */
+/* IMAGES */
+
+#hand {
+  float: right;
   max-width: 100px;
-  max-height: 100px;
-  background: transparent;
+  object-fit: cover;
 }
 
-#facebook, #twitter {
-  max-width: 15px;
-  max-height: 15px;
-  background: transparent;
+#babycow {
+  padding: 7px;
+  float: left;
+  max-width: 100px;
+  object-fit: cover;
 }
 
-#smalllogo {
-  max-width: 60px;
+#stone {
+  padding: 7px;
+  float: center;
+  max-width: 40%;
+  object-fit: cover;
+}
+/* IMAGES */
+/* ----------------------------------------------------------------------------------- */
+/* FOOTER */
+footer {
+  box-shadow: 0 0 10px #000000;
 }
 
-#yearandabout, #datemodified {
-  text-align: center;
-  font-size: 15px;
-  padding-bottom: 5px;
-}
-
-.sitename {
-  font-size: 20px;
-  text-align: center;
-  margin: auto;
-  z-index: 1;
+#location {
+  color: #000000;
 }
 
 footer {
@@ -146,10 +206,23 @@ footer {
   margin-top: 30px;
 }
 
-#stone {
+#yearandabout, #datemodified {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+#smalllogo {
+  max-width: 60px;
+}
+
+/* FOOTER */
+/* ----------------------------------------------------------------------------------- */
+/* HIDDEN ON SMALL VIEW */
+
+#spotlight3 {
   display: none;
 }
 
-#location {
-  color: #000000;
-}
+/* HIDDEN ON SMALL VIEW */
+/* ----------------------------------------------------------------------------------- */

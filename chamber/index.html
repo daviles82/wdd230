@@ -22,7 +22,9 @@
   us for the chamber meet and greet Wednesday at 7:00 p.m." Make sure your design matches your schema for the site.     -->
   <header>
     <div id="montuebanner" ></div>
-    <img id="logo" src="images/logo.PNG" alt="logo">
+    <figure>
+      <img id="logo" src="images/converted-logo.webp" alt="logo">
+    </figure>    
     <div class="sitename">Brookshire Chamber of Commerce<span id="time"></span></div>    
   </header>
   <nav>
@@ -49,6 +51,16 @@
       <p>A 13 year old boy was the only passenger to notice and save his bus driver from crashing after having a 
         heart attack. Boy stated he contributes his ability to pay attention to his surroundings because his father 
         has decided against buying him a cell phone. </p>
+    </section>
+    <section title="hero image"  id="hero" >
+      <picture>
+        <source srcset="images/wdd230-org-medium.jpg" media="(min-width:640px) and (max-width: 904px)">
+        <source srcset="images/wdd230-org-large.jpg" media="(min-width:905px)">
+        <img id="stone" src="images/wdd230-org-small.jpg" alt="Brookshire Rock">
+      </picture>
+      <h2>Hero</h2>
+      <p>The Brookshire Chamber of Commerce is more than an organization. It is a community of businesses and 
+        individuals who are working together to make Brookshire a better place to live, work, and raise a family.</p>
     </section>
     <section title="event 1" id="event1" >
       <h1>Event 1</h1>
@@ -95,73 +107,81 @@
     </section>
     <section title="weather" id="weather" >
       <h1>Weather</h1>
-      <p>Humidity: 100%</p>
-      <p>Temperature: 100 degrees F</p>
-      <p>Feels like 120 degrees F</p>
+      <p id="temp" ></p>
+      <p id="speed"></p>
+      <p id="feeltemp" ></p>
     </section>
     <section title="join" id="join" >
+      <picture>
+        <source srcset="images/countrybaby-medium.jpeg" media="(min-width:640px) and (max-width: 904px)"  >
+        <source srcset="images/countrybaby-large.jpeg" media="(min-width:905px)">
+        <img id="hand" src="images/countrybaby-small.jpeg" alt="hand reaching out">
+      </picture>
       <h1>Join</h1>
       <p>Join our organization to make a difference in the community, not only does your business benefit in the 
         local community but you are able to compete on the world stage with access to resources by being part of a 
         chamber of commerce.</p>
     </section>
-    <section title="spotlight 1" id="spotlight1" >
-      <h1>Spotlight 1</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dignissimos recusandae eaque dolorum 
-        laboriosam animi consequatur eius ducimus repellendus! Molestiae quaerat ut, quasi maxime, ratione esse veniam 
-        laborum sunt inventore architecto distinctio consequuntur cumque. Eaque debitis facere asperiores temporibus 
-        esse aliquam doloremque, fuga officia. Similique reiciendis corrupti, nulla quam officiis totam itaque harum 
-        repellat laboriosam excepturi! Deserunt qui ducimus, ut tenetur quaerat, nulla harum enim, omnis aliquam 
-        perferendis quos cum fugit maxime nobis nisi? Doloremque omnis minima quisquam illum aut exercitationem ex 
-        laborum enim molestias hic sunt, ab dolor rerum aliquam tempore animi tenetur minus reiciendis eaque maiores 
-        facere possimus ad? Ipsam, mollitia. Ab eos accusamus doloribus quos natus odio vitae tempora nulla aut dicta 
-        doloremque ducimus alias cum sit iure nisi quam reiciendis, beatae nostrum eum. Cum atque maiores provident 
-        animi soluta ducimus laborum temporibus tempora, vero in voluptatem facere voluptate quisquam. Assumenda libero 
-        veritatis cum aut dolorum similique expedita suscipit dolor nemo, adipisci impedit itaque nesciunt nobis! Sint 
-        possimus hic, delectus reiciendis optio quam unde illo. Dolorem iste excepturi eveniet maxime itaque quae dolorum 
-        atque eaque odio sed debitis quaerat vitae doloremque recusandae necessitatibus aliquid praesentium aperiam 
-        architecto suscipit, accusantium veritatis ut sapiente soluta? Debitis iste nobis fuga optio vel ducimus, porro 
-        cum illum aliquid doloremque, nulla nihil cupiditate reprehenderit? Voluptatibus dolor nulla ratione consequatur 
-        ipsa tempore iste enim, sapiente expedita! Reiciendis quam, delectus hic corrupti dignissimos dolorum fuga 
-        temporibus itaque vel officiis obcaecati in totam architecto sint nihil doloribus laborum ea similique commodi 
-        quod incidunt amet quia.</p>
-    </section>
-    <section title="spotlight 2" id="spotlight2" >
-      <h1>Spotlight 2</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nostrum voluptas corrupti incidunt! Assumenda 
-        ipsa voluptate voluptates consectetur, quis odio beatae sint perferendis blanditiis impedit doloribus inventore 
-        consequatur culpa dolorem atque ullam harum temporibus ut incidunt hic! Et tempora unde quasi recusandae sunt 
-        dicta! Repudiandae nisi at tempora, consectetur cupiditate, doloribus, sapiente iure illo praesentium porro est 
-        ea dolorem ducimus alias minima officiis voluptatibus nemo in dicta corrupti possimus ipsam aliquid? Eos praesentium, 
-        necessitatibus animi sit vel dolore adipisci omnis ipsam! Odio culpa commodi deleniti molestias, aliquam facere, 
-        quae dignissimos sapiente tempore rerum nam adipisci architecto alias perspiciatis pariatur animi.</p>
-    </section>
-    <section title="spotlight 3" id="spotlight3" >
-      <h1>Spotlight 3</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat aliquid tenetur quaerat nulla pariatur 
-        velit necessitatibus doloribus enim, fuga debitis quis provident. Dolorem voluptatum explicabo eaque nemo mollitia, 
-        nam expedita molestiae libero dolores repellat et, corrupti enim eveniet ullam placeat recusandae magni hic! Nam 
-        deleniti similique animi voluptatum laudantium quam aliquam delectus debitis dolor nisi expedita omnis eos enim magnam 
-        reprehenderit, doloribus quasi iure ducimus, vel illum soluta! Dicta expedita temporibus consequuntur nostrum odit illo, 
-        veniam sed id aut reprehenderit rem exercitationem modi officiis nihil aliquid mollitia explicabo obcaecati alias 
-        doloribus dolor maiores nesciunt. Optio modi adipisci vitae incidunt.</p>
-    </section>
-    <section title="hero image"  id="hero" >Hero<img id="stone" src="images/welcometobrookshire.jpeg" alt="Brookshire Rock">
-      <h2>Hero</h2>
-      <p>The Brookshire Chamber of Commerce is more than an organization. It is a community of businesses and 
-        individuals who are working together to make Brookshire a better place to live, work, and raise a family.</p>
+    <section id="spotlights" >    
+      <div title="spotlight 1" id="spotlight1" >
+        <picture>
+          <source srcset="images/cow-medium.jpeg" media="(min-width:640px) and (max-width: 904px)">
+          <source srcset="images/cow-large.jpeg" media="(min-width:905px)">
+          <img id="babycow" src="images/cow-small.jpeg" alt="cow just had a baby">
+        </picture>
+        <h1>Spotlight 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dignissimos recusandae eaque dolorum 
+          laboriosam animi consequatur eius ducimus repellendus! Molestiae quaerat ut, quasi maxime, ratione esse veniam 
+          laborum sunt inventore architecto distinctio consequuntur cumque. Eaque debitis facere asperiores temporibus 
+          esse aliquam doloremque, fuga officia. Similique reiciendis corrupti, nulla quam officiis totam itaque harum 
+          repellat laboriosam excepturi! Deserunt qui ducimus, ut tenetur quaerat, nulla harum enim, omnis aliquam 
+          perferendis quos cum fugit maxime nobis nisi? Doloremque omnis minima quisquam illum aut exercitationem ex 
+          laborum enim molestias hic sunt, ab dolor rerum aliquam tempore animi tenetur minus reiciendis eaque maiores 
+          facere possimus ad? Ipsam, mollitia. Ab eos accusamus doloribus quos natus odio vitae tempora nulla aut dicta 
+          doloremque ducimus alias cum sit iure nisi quam reiciendis, beatae nostrum eum. Cum atque maiores provident 
+          animi soluta ducimus laborum temporibus tempora, vero in voluptatem facere voluptate quisquam. Assumenda libero 
+          veritatis cum aut dolorum similique expedita suscipit dolor nemo, adipisci impedit itaque nesciunt nobis! Sint 
+          possimus hic, delectus reiciendis optio quam unde illo. Dolorem iste excepturi eveniet maxime itaque quae dolorum 
+          atque eaque odio sed debitis quaerat vitae doloremque recusandae necessitatibus aliquid praesentium aperiam 
+          architecto suscipit, accusantium veritatis ut sapiente soluta? Debitis iste nobis fuga optio vel ducimus, porro 
+          cum illum aliquid doloremque, nulla nihil cupiditate reprehenderit? Voluptatibus dolor nulla ratione consequatur 
+          ipsa tempore iste enim, sapiente expedita! Reiciendis quam, delectus hic corrupti dignissimos dolorum fuga 
+          temporibus itaque vel officiis obcaecati in totam architecto sint nihil doloribus laborum ea similique commodi 
+          quod incidunt amet quia.</p>
+      </div>
+      <div title="spotlight 2" id="spotlight2" >
+        <h1>Spotlight 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nostrum voluptas corrupti incidunt! Assumenda 
+          ipsa voluptate voluptates consectetur, quis odio beatae sint perferendis blanditiis impedit doloribus inventore 
+          consequatur culpa dolorem atque ullam harum temporibus ut incidunt hic! Et tempora unde quasi recusandae sunt 
+          dicta! Repudiandae nisi at tempora, consectetur cupiditate, doloribus, sapiente iure illo praesentium porro est 
+          ea dolorem ducimus alias minima officiis voluptatibus nemo in dicta corrupti possimus ipsam aliquid? Eos praesentium, 
+          necessitatibus animi sit vel dolore adipisci omnis ipsam! Odio culpa commodi deleniti molestias, aliquam facere, 
+          quae dignissimos sapiente tempore rerum nam adipisci architecto alias perspiciatis pariatur animi.</p>
+      </div>
+      <div title="spotlight 3" id="spotlight3" >
+        <h1>Spotlight 3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat aliquid tenetur quaerat nulla pariatur 
+          velit necessitatibus doloribus enim, fuga debitis quis provident. Dolorem voluptatum explicabo eaque nemo mollitia, 
+          nam expedita molestiae libero dolores repellat et, corrupti enim eveniet ullam placeat recusandae magni hic! Nam 
+          deleniti similique animi voluptatum laudantium quam aliquam delectus debitis dolor nisi expedita omnis eos enim magnam 
+          reprehenderit, doloribus quasi iure ducimus, vel illum soluta! Dicta expedita temporibus consequuntur nostrum odit illo, 
+          veniam sed id aut reprehenderit rem exercitationem modi officiis nihil aliquid mollitia explicabo obcaecati alias 
+          doloribus dolor maiores nesciunt. Optio modi adipisci vitae incidunt.</p>
+      </div>
     </section>
   </main>
   <footer>
     <section id="footer-box">
       <div>
-        <p id="yearandabout"> <img id="smalllogo" src="images/logo.PNG" alt="logo"> .:|:. Contact: avi22009@byui.edu .:|:. <a id="location" href="https://goo.gl/maps/GxpCd55gguBBo25n8">
+        <p id="yearandabout"> <img id="smalllogo" src="images/converted-logo.webp" alt="logo"> .:|:. Contact: avi22009@byui.edu .:|:. <a id="location" href="https://goo.gl/maps/GxpCd55gguBBo25n8">
           Brookshire Texas USA 77423</a> .:|:. 
           ©️ <span id="currentyear"></span> .:|:.Brookshire Chamber of Commerce .:|:. David Aviles .:|:. WDD 230 project</p>
         <p id="datemodified"> Last Modified =<span id="modifiedtime" ></span> </p>
       </div>
     </section>
   </footer>
+  <script src="scripts/windchill.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>
