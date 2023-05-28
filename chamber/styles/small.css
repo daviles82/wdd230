@@ -185,7 +185,7 @@ h1, h2 {
 
 #stone {
   padding: 7px;
-  float: center;
+  float: inherit;
   max-width: 40%;
   object-fit: cover;
 }
