@@ -1,0 +1,47 @@
+<!-- Create a new page named "lazyload.html" and store it in a "lesson-7" folder on your site.
+► Support this new page with an external CSS and JavaScript file.
+
+► The simple page should have a standard <head> section and only needs to contain an h1 and five or six picture elements with an img element. 
+  The picture elements need to be in one column.
+  The images should have dimensions of 300x400 pixels.
+  You may use your own images or external placeholders.
+
+► Include a placeholder image that has one background color and some simple text like 'placeholder'. This will be loaded into all six img src attributes first
+
+► Replace the placeholder image with the real images as soon as each image is loaded from its source using an instance of the IntersectionObserver() JavaScript object. Your images should load when a user scrolls down the screen as needed.
+
+► Use some sort of transition from the placeholder to the real image as illustrated in the reading. -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progressive Loading Images</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <h1>The Lazy Method</h1>
+  <picture>
+    <img src="images/placeholder.png" data-src="images/IMG_7225.jpeg" alt="avocado sushi" loading="lazy">
+  </picture>
+  <picture>
+    <img src="images/placeholder.png" data-src="images/IMG_7250.jpeg" alt="mixed sushi" loading="lazy">
+  </picture>
+  <picture>
+    <img src="images/placeholder.png" data-src="images/IMG_7267.jpeg" alt="tower of sushi" loading="lazy">
+  </picture>
+  <picture>
+    <img src="images/placeholder.png" data-src="images/IMG_7272.jpeg" alt="bundle of dessert" loading="lazy">
+  </picture>
+  <picture>
+    <img src="images/placeholder.png" data-src="images/IMG_7332.jpeg" alt="marching sushi" loading="lazy">
+  </picture>
+  
+  <script src="scripts/app.js" defer></script>
+</body>
+</html>
