@@ -157,7 +157,13 @@ body {
   width: auto;
   height: auto;
   padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  justify-content: center;
+  flex: 1;
 }
+
+
 
 #spotlight1, #spotlight2, #spotlight3 {
   text-align: center;
@@ -198,7 +204,6 @@ ul {
   padding: 7px;
   float: left;
   max-width: 100px;
-  max-height: auto;
   object-fit: cover;
 }
 
@@ -206,6 +211,8 @@ ul {
 #stone {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 /* IMAGES */
@@ -231,6 +238,10 @@ footer {
 
 #smalllogo {
   max-width: 60px;
+}
+
+h3 {
+  font-size: 10px;
 }
 
 /* FOOTER */
