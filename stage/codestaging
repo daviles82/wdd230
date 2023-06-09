@@ -24,6 +24,7 @@ function getDaysSinceLastVisit() {
   // Get the current date and time.
   const now = new Date();
 
+
   // Get the day last visited from local storage.
   const dayLastVisited = window.localStorage.getItem("dayLastVisited");
 

@@ -81,6 +81,8 @@ function reveal() {
 }
 
 
+
+
 function getDaysSinceLastVisit() {
   const now = new Date();
 
