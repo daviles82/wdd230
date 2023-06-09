@@ -82,31 +82,24 @@ function reveal() {
 
 
 function getDaysSinceLastVisit() {
-  // Get the current date and time.
   const now = new Date();
 
-  // Get the day last visited from local storage.
   const dayLastVisited = window.localStorage.getItem("dayLastVisited");
 
-  // If the day last visited is not set, return 0.
   if (!dayLastVisited) {
     return 0;
   }
 
-  // Calculate the number of days since the last visit.
   const daysSinceLastVisit = Math.round((now - new Date(dayLastVisited)) / (1000 * 60 * 60 * 24));
 
-  // Return the number of days since the last visit.
   return daysSinceLastVisit;
 }
 
-// Update the time between visits display.
 function updateTimeBetweenVisits() {
   const daysSinceLastVisit = getDaysSinceLastVisit();
   document.getElementById("time-between-visits").innerHTML = daysSinceLastVisit;
 }
 
-// Set the day last visited to the current day when the page loads.
 window.addEventListener("load", () => {
   window.localStorage.setItem("dayLastVisited", new Date().toISOString());
   updateTimeBetweenVisits();
