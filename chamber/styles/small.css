@@ -61,6 +61,23 @@ header {
   position: relative;
 }
 
+
+h5 {
+  position: absolute;
+  font-size: 10px;
+  top: 0%;
+  left: 0%;
+  padding-left: 2px;
+}
+
+.time-between-visits {
+  position: absolute;
+  font-size: 10px;
+  top: 12%;
+  left: 0%;
+  padding-left: 2px;
+}
+
 /* HEADER */
 /* ----------------------------------------------------------------------------------- */
 /* NAVIGATION */
@@ -254,4 +271,171 @@ h3 {
 
 /* HIDDEN ON SMALL VIEW */
 /* ----------------------------------------------------------------------------------- */
+/* STAGING CODE */
+
+
+img[data-src] {
+  filter: blur(0.6em);
+}
+
+.right {
+  filter: blur(0em);
+  transition: filter 3s;
+  box-shadow: 0 0 15px #000000;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.right {
+  filter: blur(0em);
+  transition: 3s;
+  box-shadow: 0 0 15px #000000;
+}
+
+#first:hover .right, #second:hover .right, #third:hover .right, #fourth:hover .right, #fifth:hover .right{
+  display: none;
+}
+
+.discover p {
+  padding: 10px;
+  font-size: 12px;
+}
+
+#first, #second, #third, #fourth, #fifth {
+  position: absolute;
+  background-color: rgba(152, 153, 139, 0.7);
+  box-shadow: 0 0 20px #000000;
+  margin: 10px;
+  display: flex;
+  overflow: hidden;
+  padding: 2%;
+}
+
+
+#first {
+  top: 16.6%;
+  bottom: 66.4%;
+  overflow: hidden;
+}
+
+#first:hover {
+  background-color: #98998bff;
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 50px #000000;
+  top: 12.6%;
+  bottom: 62.4%;
+  padding: 5%;
+}
+
+#second {
+  top: 33.2%;
+  bottom: 49.8%;
+  overflow: hidden;
+}
+
+#second:hover {
+  background-color: #98998bff;
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 50px #000000;
+  top: 29.2%;
+  bottom: 45.8%;
+  padding: 5%;
+}
+
+#third {
+  top: 49.8%;
+  bottom: 33.2%;
+  overflow: hidden;
+}
+
+#third:hover {
+  background-color: #98998bff;
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 50px #000000;
+  top: 45.8%;
+  bottom: 29.2%;
+  padding: 5%;
+}
+
+#fourth {
+  top: 66.4%;
+  bottom: 16.6%;
+  overflow: hidden;
+}
+
+#fourth:hover {
+  background-color: #98998bff;
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 50px #000000;
+  top: 62.4%;
+  bottom: 12.6%;
+  padding: 5%;
+}
+
+#fifth {
+  top: 83%;
+  bottom: 0%;
+  overflow: hidden;
+}
+
+#fifth:hover {
+  background-color: #98998bff;
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 50px #000000;
+  top: 76%;
+  bottom: -7%;
+  padding: 5%;
+}
+
+#background {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 15%;
+  object-fit: cover;
+}
+
+
+#discovermain {
+  position: relative;
+  height: 800px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  transition: filter 2s;
+}
+
+h4 {
+  position: absolute;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  bottom: 83%;
+  left: 25%;
+  right: 25%;
+  transition: 3s;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* STAGING CODE */
+/* ----------------------------------------------------------------------------------- */
+
 }

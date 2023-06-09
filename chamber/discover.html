@@ -1,3 +1,22 @@
+<!-- Add a "discover.html" page that, in part, will display at least five images about the city/town. Each image should 
+have a brief description and should take up only one column in larger views.
+
+► Include some demographic data which can include statistical rightrmation about the city/location. The design of 
+this page is up to you but stay true to your right plan and the formatting of your home page content.
+
+💡  Do not add independent CSS pages to work with this page. The entire right uses the same CSS by design and purpose. 
+Look to reuse class declarations as needed and remain consistent in your approach.
+► Make sure the images that you use are optimized for the layout.
+
+► The images must not load until the user scrolls. Use a lazy loading technique.
+
+► Using local storage, display the amount of time in days (rounded to a whole number) between user visits to this 
+page by the user's agent (browser). You may elect to display this rightrmation where you deem fit on the page.
+
+► Incorporate the some CSS property effect when a user hovers over the images in the gallery. This effect is your 
+choice.  Do not apply this effect to the images in the small view. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,48 +40,91 @@
     <figure>
       <img id="logo" src="images/converted-logo.webp" alt="logo">
     </figure>    
-    <div class="sitename">Brookshire Chamber of Commerce<span id="time"></span></div>    
+    <div class="site-name">Brookshire Chamber of Commerce<span id="time"></span></div>
+    <h5>Time Between Visits</h5>
+    <div class="time-between-visits">
+      <span id="time-between-visits"></span> days
+    </div>
   </header>
   <nav>
     <button id="hamburgerBtn" ><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav" >
-          <li class="active" ><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a href="https://daviles82.github.io/wdd230/chamber/index.html">HOME</a></li>
+          <li class="active"  ><a href="https://daviles82.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
           <li><a href="#">CONNECT</a></li>
           <li><a href="#">JOIN US</a></li>
           <li><a href="https://facebook.com"><img id="facebook" src="images/facebook.png" alt="fb icon"></a></li>
           <li><a href="https://twitter.com"><img id="twitter" src="images/twitter.png" alt="twitter icon"></a></li>
         </ul>
   </nav>
-  <main>
-    <section>
-      <ul>
-        <li>
+  <main id="discovermain">
+    <h4>DISCOVER BROOKSHIRE</h4>
+    <img id="background" src="images/logo.PNG" alt="logo">
+    <section class="discover">
+      <div>
+        <div class="reveal" id="first">
           <picture>
-            <img src="images/converted-logo.webp" alt="">
+            <source srcset="images/welcometobrookshire.jpeg" media="(min-width:640px) and (max-width: 904px)"  >
+            <source srcset="images/welcometobrookshire.jpeg" media="(min-width:905px)">
+            <img class="right" src="images/favicon.ico" data-src="images/welcometobrookshiresmall.jpeg" alt="" loading="lazy">
           </picture>
-        </li>
-        <li>
+          <p class="left">Brookshire is a small, charming town located in Waller County, Texas. It is a great place to 
+            raise a family, with a variety of parks and recreation options, a strong sense of community, and a vibrant 
+            downtown area. The town is also home to a number of businesses and schools, making it a great place to live 
+            and work.</p loading="lazy">
+        </div>
+        <div class="reveal" id="second">
           <picture>
-            <img src="images/converted-logo.webp" alt="">
+            <source srcset="images/bessiescreekmedium.jpeg" media="(min-width:640px) and (max-width: 904px)"  >
+            <source srcset="images/bessiescreek.jpeg" media="(min-width:905px)">           
+            <img class="right" src="images/favicon.ico" data-src="images/bessiescreeksmall.jpeg" alt="" loading="lazy">
           </picture>
-        </li>
-        <li>
+          <p class="left">Brookshire, Texas is a diverse community with a population of over 5,600 people. Brookshire 
+            is also a growing community, with a population that has increased by over 10% in the past five years. The 
+            town's diversity is one of its greatest strengths. Brookshire is a welcoming community where people from 
+            all backgrounds can feel at home. The town's schools are some of the best in the state, and there are a 
+            variety of recreational opportunities available for residents of all ages.</p>
+        </div>
+        <div class="reveal" id="third">
           <picture>
-            <img src="images/converted-logo.webp" alt="">
+            <source srcset="images/horsesonfarmmedium.jpeg" media="(min-width:640px) and (max-width: 904px)"  >
+            <source srcset="images/horsesonfarm.jpeg" media="(min-width:905px)">  
+            <img class="right" src="images/favicon.ico" data-src="images/horsesonfarmsmall.jpeg" alt="" loading="lazy">
           </picture>
-        </li>
-        <li>
+          <p class="left">Brookshire, Texas is a great place to raise livestock. The town is located in the heart of 
+            Texas cattle country, and there are a number of resources available to help livestock producers succeed. 
+            The town has a strong livestock auction market, and there are a number of feed and supply stores that can 
+            provide producers with the products they need. Brookshire is also home to a number of veterinary clinics 
+            that can provide livestock with the care they need. The town's proximity to Houston and other major cities 
+            makes it easy to market livestock.</p loading="lazy">
+        </div>
+        <div class="reveal" id="fourth">
           <picture>
-            <img src="images/converted-logo.webp" alt="">
+            <source srcset="images/openroadmedium.jpeg" media="(min-width:640px) and (max-width: 904px)"  >
+            <source srcset="images/openroad.jpeg" media="(min-width:905px)">  
+            <img class="right" src="images/favicon.ico" data-src="images/openroadsmall.jpeg" alt="" loading="lazy">
           </picture>
-        </li>
-        <li>
+          <p class="left">Brookshire, Texas is a thriving community with a strong economy. The town is home to a number 
+            of businesses, including Thomas Instruments, Grundfos, and HampCo. Brookshire is also a growing community, 
+            with a population that has increased by over 10% in the past five years. The town's economy is supported by 
+            a number of factors, including its proximity to Houston, its strong transportation infrastructure, and its 
+            skilled workforce.</p>
+        </div>
+        <div class="reveal" id="fifth">
           <picture>
-            <img src="images/converted-logo.webp" alt="">
+            <source srcset="images/pittsville.jpeg" media="(min-width:640px) and (max-width: 904px)">
+            <source srcset="images/pittsville.jpeg" media="(min-width:905px)">  
+            <img class="right" src="images/favicon.ico" data-src="images/pittsvillesmall.jpeg" alt="" loading="lazy">
           </picture>
-        </li>
-      </ul>
+          <p class="left">Pittsville was founded in 1870 by a group of settlers who were attracted to the area's fertile 
+            land and abundant water resources. The town quickly grew, and by the early 1900s, it had a population of 
+            over 1,000 people. Pittsville was a prosperous town, with a number of businesses, schools, and churches. 
+            However, Pittsville's fortunes began to decline in the early 1920s. The arrival of a new railroad to the south, 
+            and the subsequent founding of Fulshear, resulted in the gradual decline and eventual disappearance of 
+            Pittsville by the late 1940s. Today, Pittsville is a ghost town in the middle of Brookshire, with only a 
+            few abandoned buildings remaining.</p>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
@@ -74,7 +136,8 @@
         <p id="datemodified"> Last Modified =<span id="modifiedtime" ></span> </p>
       </div>
     </section>
+    <h3>Texas Proud</h3>
   </footer>
-  <script src="scripts/app.js"></script>  
+  <script src="scripts/app.js" defer></script>  
 </body>
 </html>
