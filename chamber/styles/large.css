@@ -512,7 +512,6 @@ img[data-src] {
 
 #first:hover .right, #second:hover .right, #third:hover .right, #fourth:hover .right, #fifth:hover .right{
   transform: perspective(800px) rotateY(80deg) translateX(-60%) scale(0.25);
-  /* overflow: visible; */
   position: absolute;
 }
 
@@ -527,11 +526,10 @@ img[data-src] {
 }
 
 #first:hover .left, #second:hover .left, #third:hover .left, #fourth:hover .left, #fifth:hover .left {
-  font-size: 15px;
+  font-size: 22px;
   margin-right: 40%;
   position: relative;
   left: 40%;
-  font-size: 16px;
 }
 
 #first {
@@ -547,7 +545,6 @@ img[data-src] {
   box-shadow: 0 0 50px #000000;
   top: 14.6%;
   bottom: 62.4%;
-  font-size: 16px;
 }
 
 #second {

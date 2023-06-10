@@ -434,6 +434,9 @@ img[data-src] {
   width: auto;
   object-fit: cover;
 }
+.left {
+  margin-left: 2%;
+}
 
 .right {
   filter: blur(0em);
@@ -442,14 +445,11 @@ img[data-src] {
 }
 
 #first:hover .right, #second:hover .right, #third:hover .right, #fourth:hover .right, #fifth:hover .right{
-  transform: perspective(600px) rotateY(40deg);
-  overflow: visible;
+  transform: perspective(700px) rotateY(75deg) translateX(-60%) scale(0.4);
+  position: absolute;
 }
 
-.discover p {
-  padding: 10px;
-  font-size: 16px;
-}
+
 
 #first, #second, #third, #fourth, #fifth {
   position: absolute;
@@ -457,8 +457,14 @@ img[data-src] {
   box-shadow: 0 0 20px #000000;
   margin: 10px;
   display: flex;
-  overflow: hidden;
   padding: 2%;
+}
+
+#first:hover .left, #second:hover .left, #third:hover .left, #fourth:hover .left, #fifth:hover .left {
+  font-size: 15px;
+  margin-right: 40%;
+  position: relative;
+  left: 40%;
 }
 
 
@@ -470,12 +476,11 @@ img[data-src] {
 
 #first:hover {
   background-color: #98998bff;
-  transform: scale(1.1);
+  transform: scale(0.9);
   z-index: 1;
   box-shadow: 0 0 50px #000000;
-  top: 12.6%;
+  top: 14.6%;
   bottom: 62.4%;
-  padding: 5%;
 }
 
 #second {
@@ -486,12 +491,11 @@ img[data-src] {
 
 #second:hover {
   background-color: #98998bff;
-  transform: scale(1.1);
+  transform: scale(0.9);
   z-index: 1;
   box-shadow: 0 0 50px #000000;
-  top: 29.2%;
+  top: 31.2%;
   bottom: 45.8%;
-  padding: 5%;
 }
 
 #third {
@@ -502,12 +506,11 @@ img[data-src] {
 
 #third:hover {
   background-color: #98998bff;
-  transform: scale(1.1);
+  transform: scale(0.9);
   z-index: 1;
   box-shadow: 0 0 50px #000000;
-  top: 45.8%;
+  top: 47.8%;
   bottom: 29.2%;
-  padding: 5%;
 }
 
 #fourth {
@@ -518,12 +521,11 @@ img[data-src] {
 
 #fourth:hover {
   background-color: #98998bff;
-  transform: scale(1.1);
+  transform: scale(0.9);
   z-index: 1;
   box-shadow: 0 0 50px #000000;
-  top: 62.4%;
+  top: 64.4%;
   bottom: 12.6%;
-  padding: 5%;
 }
 
 #fifth {
@@ -534,12 +536,11 @@ img[data-src] {
 
 #fifth:hover {
   background-color: #98998bff;
-  transform: scale(1.1);
+  transform: scale(0.9);
   z-index: 1;
   box-shadow: 0 0 50px #000000;
-  top: 76%;
-  bottom: -7%;
-  padding: 5%;
+  top: 81%;
+  bottom: -4%;
 }
 
 #background {
@@ -569,7 +570,6 @@ h4 {
   bottom: 83%;
   left: 25%;
   right: 25%;
-  transition: 3s;
 }
 
 .reveal {
