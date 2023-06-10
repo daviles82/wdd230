@@ -1,0 +1,27 @@
+
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid hsla(0,0%,20%,.8);
+	border-collapse: collapse;
+}
+
+
+th, td {
+	padding: 8px 16px;
+	border: 1px solid hsla(0,0%,33%,.3);
+}
+
+th {
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
