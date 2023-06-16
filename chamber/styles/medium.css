@@ -11,7 +11,7 @@
   padding: 5px;
 }
 
-.site-name {
+.sitename {
   font-size: 30px;
   text-align: center;
   margin: auto;
@@ -30,6 +30,7 @@ header {
   justify-content: center;
   position: relative;
   transition: 2s;
+  border-radius: 0.5rem;
 }
 
 #time {
@@ -37,6 +38,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107));
 }
 
 h5 {
@@ -64,6 +66,7 @@ h5 {
 
 nav {
   box-shadow: 0 0 10px #000000;
+  border-radius: 0.5rem;
 }
 
 nav ul {display: none;}
@@ -330,6 +333,108 @@ ul {
 
 /* MAIN SECTIONS */
 /* ----------------------------------------------------------------------------------- */
+/* JOIN */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+h1 {
+  text-shadow: -3px 3px 0.2em grey;
+  text-align: center;
+}
+#mainjoin {
+  font-size: 16px;
+  padding: 0 2%;
+  min-height: 20rem;
+  height: auto;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: .5rem 2%;
+  box-shadow: -5px 5px 10px;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px gray;
+  border-radius: 0.5rem;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: -5px 5px 10px;
+}
+
+form label.finishing input {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px gray;
+  border-radius: 0.5rem;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: auto;
+  height: 100px;
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: -5px 5px 10px;
+}
+
+
+
+
+form label.membership, form label.finishing {
+  display: block;
+  padding: .75rem 0;
+  color: black;
+}
+
+form input.submitBtn {
+  box-shadow: -5px 5px 10px #000000;
+  background-color: gold;
+  color: black;
+  border-radius: 0.5rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: blue solid 6px;
+}
+
+.thankyouconfirm {
+  font-size: 25px;
+  padding-bottom: 300px;
+}
+
+
+/* JOIN */
+/* ----------------------------------------------------------------------------------- */
 /* IMAGES */
 
 #stone {
@@ -350,6 +455,7 @@ ul {
   background: transparent;
   margin: 0 auto;
   padding: 0;
+  filter: drop-shadow(0px -10px .25em rgb(99, 93, 93));
 }
 
 
@@ -389,6 +495,7 @@ footer{
   padding: 0;
   box-shadow: 0 0 10px #000000;
   background-color: #98998bff;
+  border-radius: 0.5rem;
 }
 
 #smalllogo {

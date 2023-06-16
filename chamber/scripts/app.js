@@ -106,3 +106,7 @@ window.addEventListener("load", () => {
   window.localStorage.setItem("dayLastVisited", new Date().toISOString());
   updateTimeBetweenVisits();
 });
+
+
+
+console.log(document.getElementById("form_loaded_date").value);

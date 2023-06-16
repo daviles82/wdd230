@@ -1,0 +1,121 @@
+<!-- Create a new file named "join.html" within the project folder.
+Given that your site must maintain a consistent look and feel with common navigation, 
+it is recommended that start with a copy of an existing, refined page from your project. 
+You will be using the same CSS file references and some of the JavaScript references as needed.
+The form page must contain the following form elements, types, and attributes.
+Use a form field with a get method and action that points to a confirmation page named "thankyou.html".
+A first name input of type text and is required.
+A last name input of type text and is required.
+A business position title field of type text that is not required but only accepts alpha characters, 
+hyphens, and spaces with a minimum of seven characters using a regular expression Links to an external site. pattern.
+A email using input of type email that is required and provides a placeholder which contains an example email input.
+A cell phone number using input of type tel and is required.
+A business name/title text field that is required
+A membership level selection using an appropriate form field of your choosing to allow the user to select a 
+membership level.
+There are four membership levels.
+Membership level benefits should be displayed to the side of the form in larger views.
+NP Membership is for non profit organizations and there is no fee.
+Bronze Membership.
+Silver Membership
+Gold Membership
+This memberships have increasing costs as well as increased benefits per level like trainings, advertising 
+(like on the home page spotlights), event discounts, etc.
+A business description text area where the user can briefly describe their business.
+A hidden field that contains the current date and time that the form was loaded by the user.
+A form submission button using input of type submit that is properly labeled.
+Each field element should have an appropriate name attribute
+Each field element, including the textarea, should be encased in a <label> tag to support accessibility Links 
+  to an external site..
+Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression 
+(tabs) for accessibility. See the week's activity and Designing more Efficient Forms Links to an external site.
+Create a new page named "thankyou.html" that expresses gratitude for filling out the form. This page should load 
+when the user has successfully submitted the form. The design should follow your site pattern and does not need 
+to have a lot of actual content. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brookshire Chamber of Commerce.">
+  <title>Brookshire Chamber of Commerce Membership</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Ysabeau&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <header>
+    <div id="montuebanner" ></div>
+    <figure>
+      <img id="logo" src="images/converted-logo.webp" alt="logo">
+    </figure>    
+    <div class="sitename">Brookshire Chamber of Commerce<span id="time"></span></div>    
+  </header>
+  <nav>
+    <button id="hamburgerBtn" ><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav" >
+          <li><a href="https://daviles82.github.io/wdd230/chamber/index.html">HOME</a></li>
+          <li><a href="https://daviles82.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
+          <li><a href="#">CONNECT</a></li>
+          <li class="active" ><a href="https://daviles82.github.io/wdd230/chamber/join.html">JOIN US</a></li>
+          <li><a href="https://facebook.com"><img id="facebook" src="images/facebook.png" alt="fb icon"></a></li>
+          <li><a href="https://twitter.com"><img id="twitter" src="images/twitter.png" alt="twitter icon"></a></li>
+        </ul>
+  </nav>
+  
+  <main id="mainjoin">
+    <h1>JOIN</h1>
+    <form method="get" action="thankyou.html">
+      <fieldset>
+        <legend>Create Your BCOC Membership</legend>
+        <label class="top">First Name* <input type="text" name="fname" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" required></label>
+        <label class="top">Business Position <input type="text" id="position"  pattern="^[A-Za-z -]{7, }$"></label>       
+        <label class="top">Email* <input type="email" name="email" placeholder="yourself@gmail.com" required></label>
+        <label class="top">Cell Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
+        <label class="top">Business Name/Title* <input type="text" name="bname" required></label>
+        <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
+        <input type="hidden" name="form_loaded_date" value="2023-06-16T13:44:15.000Z">
+      </fieldset>
+      <fieldset id="memberoptions">
+        <Legend>Membership Level</Legend>
+        <div>Choose a membership</div>
+        <label class="membership"><input type="radio" name="membership" value="nonprofit"> NP Membership</label>
+        <label class="membership"><input type="radio" name="membership" value="bronze"> Bronze</label>
+        <label class="membership"><input type="radio" name="membership" value="silver"> Silver</label>
+        <label class="membership"><input type="radio" name="membership" value="gold"> Gold</label>
+        <fieldset id="level">
+          <legend>Level Benefits</legend>
+          <div>*NP- Tax Breaks and support for IRS audits.</div>
+          <div>**Bronze- Member participation requirments to help support your business as a team.</div>
+          <div>***Silver- Business audit and guidance for competitive advantages over non-member businesses.</div>
+          <div>****Gold membership offers access to our business suites with other Chamber of Commerce organizations in the Greater Houston area.</div>
+        </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Business Information</legend>
+        <label class="finishing">Your Business Description <input type="text" name="description"></label>
+      </fieldset>
+      <input type="submit" value = "Create My Membership" class="submitBtn">  
+    </form>
+  </main>
+  <footer>
+    <section id="footer-box">
+      <div>
+        <p id="yearandabout"> <img id="smalllogo" src="images/converted-logo.webp" alt="logo"> .:|:. Contact: avi22009@byui.edu .:|:. <a id="location" href="https://goo.gl/maps/GxpCd55gguBBo25n8">
+          Brookshire Texas USA 77423</a> .:|:. 
+          ©️ <span id="currentyear"></span> .:|:.Brookshire Chamber of Commerce .:|:. David Aviles .:|:. WDD 230 project</p>
+        <p id="datemodified"> Last Modified =<span id="modifiedtime" ></span> </p>
+      </div>
+      <h3>Texas Proud</h3>
+    </section>
+  </footer>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
