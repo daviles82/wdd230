@@ -498,13 +498,6 @@ form label.membership, form label.finishing {
 }
 
 
-form p {
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
-  flex-direction: row-reverse
-  
-}
 
 form input.submitBtn {
   box-shadow: -5px 5px 10px #000000;
