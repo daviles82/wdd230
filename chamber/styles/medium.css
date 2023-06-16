@@ -393,7 +393,6 @@ form label.finishing input {
   padding: .75rem;
   color: #555;
   width: 100%;
-  max-width: auto;
   height: 100px;
   background-color: rgba(0,0,0,0.1);
   box-shadow: -5px 5px 10px;
