@@ -35,3 +35,18 @@ caption {
 	font-size: 1rem;
 }
 
+tr:nth-child(2) th:nth-child(2), tr:nth-child(2) th:nth-child(3),
+tr:nth-child(2) th:nth-child(4){
+	background-color: rgb(55, 54, 54);
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(207, 201, 201);
+}
+
+tr:nth-child(1) tD:nth-child(2), tr:nth-child(1) tD:nth-child(3),
+tr:nth-child(1) tD:nth-child(4), tr:nth-child(2) td:nth-child(3), tr:nth-child(2) td:nth-child(4),
+tr:nth-child(3) td:nth-child(4) {
+	color: darkblue;
+}
+
