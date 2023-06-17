@@ -19,6 +19,11 @@ div.cards {
   justify-content: center;
 }
 
+footer {
+  justify-content: center;
+  text-align: center;
+}
+
 img , div.cards h4{
   padding: 10px;
   margin: 0 10px;
