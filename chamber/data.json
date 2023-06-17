@@ -2,7 +2,7 @@
   "businesses": [
     {
       "name": "Luxe Mobile Wellness Spa",
-      "address": null,
+      "address": "mobile",
       "phone": "281-923-5148",
       "websiteURL": "https://lux-wellness-pet-spa.business.site/?utm_source=gmb&utm_medium=referral",
       "membershipLevel": "Gold",
@@ -12,7 +12,7 @@
       "name": "Little Tim's Lemonade Stand",
       "address": "At the corner of FM 359 and Hunt Road",
       "phone": "281-638-3448",
-      "websiteURL": null,
+      "websiteURL": "https://littletim.com",
       "membershipLevel": "NP Membership",
       "image": "images/"
     },
@@ -43,7 +43,7 @@
     {
       "name": "Tesla Empire Warehouse",
       "address": "111 Empire Blvd, Brookshire, TX 77423",
-      "phone": null,
+      "phone": "unknown",
       "websiteURL": "https://www.tesla.com",
       "membershipLevel": "Gold",
       "image": "images/"
@@ -68,7 +68,7 @@
       "name": "Brookshire Trucks and Trailers",
       "address": "35049 Katy Fwy, Brookshire, TX 77423",
       "phone": "281-375-8884",
-      "websiteURL": null,
+      "websiteURL": "trucks&trailers",
       "membershipLevel": "Bronze",
       "image": "images/"
     }
