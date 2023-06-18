@@ -1,12 +1,12 @@
 {
   "businesses": [
     {
-      "name": "Luxe Mobile Wellness Spa",
-      "address": "mobile",
+      "name": "Luxe Wellness Pet Spa",
+      "address": "32622 Orchard Haze Dr, Brookshire, TX 77423",
       "phone": "281-923-5148",
       "websiteURL": "https://lux-wellness-pet-spa.business.site/?utm_source=gmb&utm_medium=referral",
       "membershipLevel": "Gold",
-      "image": "images/"
+      "imageurl": "https://us1-photo.nextdoor.com/post_photos/0f/fd/0ffdbfb9741dc45d379ca3d515e47605.jpeg"
     },
     {
       "name": "Little Tim's Lemonade Stand",
@@ -14,7 +14,7 @@
       "phone": "281-638-3448",
       "websiteURL": "https://littletim.com",
       "membershipLevel": "NP Membership",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Anytime Fitness",
@@ -22,7 +22,7 @@
       "phone": "346-804-1566",
       "websiteURL": "https://www.anytimefitness.com/locations/us/tx/",
       "membershipLevel": "Gold",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Dozier's BBQ Restaurant",
@@ -30,7 +30,7 @@
       "phone": "281-346-1411",
       "websiteURL": "https://www.doziersbbq.com",
       "membershipLevel": "Silver",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Live N Luxury LLC",
@@ -38,7 +38,7 @@
       "phone": "866-854-8365",
       "websiteURL": "http://livenluxuryllc.com/?utm_source=gmb&utm_medium=referral",
       "membershipLevel": "Silver",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Tesla Empire Warehouse",
@@ -46,7 +46,7 @@
       "phone": "unknown",
       "websiteURL": "https://www.tesla.com",
       "membershipLevel": "Gold",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Summer Breeze USA RV Resort",
@@ -54,7 +54,7 @@
       "phone": "713-358-8430",
       "websiteURL": "https://summerbreezeusa.com",
       "membershipLevel": "Bronze",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Arise Sports Complex",
@@ -62,7 +62,7 @@
       "phone": "310-428-6564",
       "websiteURL": "https://www.arisesportscomplex.com",
       "membershipLevel": "Bronze",
-      "image": "images/"
+      "imageurl": "images/"
     },
     {
       "name": "Brookshire Trucks and Trailers",
@@ -70,7 +70,7 @@
       "phone": "281-375-8884",
       "websiteURL": "trucks&trailers",
       "membershipLevel": "Bronze",
-      "image": "images/"
+      "imageurl": "images/"
     }
   ]
 }
