@@ -521,7 +521,7 @@ img[data-src] {
   transition: filter 2s;
 }
 
-h4 {
+#discoverbrookshire {
   position: absolute;
   font-size: 2rem;
   text-align: center;
@@ -547,5 +547,115 @@ h4 {
 
 /* STAGING CODE */
 /* ----------------------------------------------------------------------------------- */
+/* DIRECTORY */
+
+main #directory {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 1400px;
+  height: 2000px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  padding: 15px;
+
+}
+
+.menu {
+	margin: 1rem auto;
+	background-color: none;
+	text-align: center;
+}
+
+.menu button {
+	border-radius: 0.5rem;
+}
+
+#gridicon, #listicon {
+	width: 2.3rem;
+	height: 2.3rem;
+	padding: 0.5rem;
+}
+
+#gridicon:active, #listicon:active {
+	background-color: white;
+	border-radius: 3rem;
+	transform: scale(1.5);
+}
+
+
+section {
+	padding: 1rem;
+}
+
+
+.grid {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.directclass {
+  font-size: inherit;
+  color: black;
+}
+
+.grid section {
+  background-color: #98998bff;
+  margin: 0.5%;
+  padding: 4% 1% 1% 1%;
+  border-radius: 0.5rem;
+	box-shadow: -5px 5px 5px #333;
+} 
+
+
+.grid img {
+	box-shadow: -5px 5px 5px #333;
+	border-radius: 0.5rem;
+  display: none;
+}
+
+
+.grid section > * {
+	margin: 0.3rem;
+}
+
+
+.list section img {
+	display: none;
+}
+
+.list h3 {
+	display: none;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 1rem 2rem;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+
+
+.list section:nth-child(even) {
+	background-color: rgb(188, 189, 178);
+}
+
+#linksettings {
+	font-size: 0.85rem;
+	letter-spacing: 1.1pt;
+}
+
 
 }

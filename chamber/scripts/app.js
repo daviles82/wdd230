@@ -82,6 +82,9 @@ function reveal() {
 
 
 
+// ------------------------------------------------------------------------------------------------------------
+// DAY SINCE LAST VISIT
+
 
 function getDaysSinceLastVisit() {
   const now = new Date();
@@ -97,6 +100,10 @@ function getDaysSinceLastVisit() {
   return daysSinceLastVisit;
 }
 
+// DAY SINCE LAST VISIT
+// ------------------------------------------------------------------------------------------------------------
+// TIME BETWEEN VISITS
+
 function updateTimeBetweenVisits() {
   const daysSinceLastVisit = getDaysSinceLastVisit();
   document.getElementById("time-between-visits").innerHTML = daysSinceLastVisit;
@@ -108,6 +115,9 @@ window.addEventListener("load", () => {
 });
 
 
-
 console.log(document.getElementById("form_loaded_date").value);
+
+// TIME BETWEEN VISITS
+// ------------------------------------------------------------------------------------------------------------
+
 

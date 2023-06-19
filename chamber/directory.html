@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brookshire Chamber of Commerce.">
+    <title>Brookshire Chamber of Commerce</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Ysabeau&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+  </head>
+<body>
+  <header>
+    <div id="montuebanner" ></div>
+    <figure>
+      <img id="logo" src="images/converted-logo.webp" alt="logo">
+    </figure>    
+    <div class="sitename">Brookshire Chamber of Commerce<span id="time"></span></div>    
+  </header>
+  <nav>
+    <button id="hamburgerBtn" ><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav" >
+          <li><a href="https://daviles82.github.io/wdd230/chamber/index.html">HOME</a></li>
+          <li><a href="https://daviles82.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
+          <li class="active" ><a href="#">CONNECT</a></li>
+          <li><a href="https://daviles82.github.io/wdd230/chamber/join.html">JOIN US</a></li>
+          <li><a href="https://facebook.com"><img id="facebook" src="images/facebook.png" alt="fb icon"></a></li>
+          <li><a href="https://twitter.com"><img id="twitter" src="images/twitter.png" alt="twitter icon"></a></li>
+        </ul>
+  </nav>
+  <main id="directory">
+    <h1>Brookshire Chamber Businesses</h1>
+    <div class="menu">
+      <button id="grid"> <img id="gridicon" src="images/gridicon.png" alt="button"></button>
+      <button id="list"> <img id="listicon" src="images/listicon.png" alt="button"></button>
+    </div>
+    <article class="grid"></article> 
+  </main>
+  <footer>
+    <section id="footer-box">
+      <div>
+        <p id="yearandabout"> <img id="smalllogo" src="images/converted-logo.webp" alt="logo"> .:|:. Contact: avi22009@byui.edu .:|:. <a id="location" href="https://goo.gl/maps/GxpCd55gguBBo25n8">
+          Brookshire Texas USA 77423</a> .:|:. 
+          ©️ <span id="currentyear"></span> .:|:.Brookshire Chamber of Commerce .:|:. David Aviles .:|:. WDD 230 project</p>
+        <p id="datemodified"> Last Modified =<span id="modifiedtime" ></span> </p>
+      </div>
+      <h3>Texas Proud</h3>
+    </section>
+  </footer>
+  <script src="scripts/data.js"></script>
+  <script src="scripts/appdata.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
