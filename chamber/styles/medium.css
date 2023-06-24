@@ -122,8 +122,8 @@ nav button {
   position: relative;
   height: 1000px;
   margin-top: 1%;
-  margin-bottom: 2%;
-  padding: 15px;
+  margin-bottom: 1%;
+  padding: 5px;
 }
 
 main {
@@ -147,16 +147,25 @@ body {
 }
 
 
-#news, #weather, #join, #event1 {
+#news, #weather, #join, #event1, #hero {
   font-size: 18px;
   text-align: center;
   justify-content: center;
-  height: 180px;
   width: auto;
   background-color: rgba(152, 153, 139, 0.4);
-  padding: 10px;
+  padding: 1%;
   box-shadow: 0 0 10px #000000;
-  margin: 10px;
+  margin: 5px;
+}
+
+#spotlight1, #spotlight2, #spotlight3, #spotlights{
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(152, 153, 139, 0.7);
+  margin: 5px;
+  padding: 1%;
+  box-shadow: 0 0 10px #000000;
+  border-radius: 0.5rem;
 }
 
 h1, h2 {
@@ -177,49 +186,50 @@ ul {
   bottom: 80%;
   left: 0%;
   right: 0%;
-  padding: 10px;
-  overflow: hidden;
   cursor: pointer;
   transition: 2s;
-  margin: 10px;
   box-shadow: 0 0 10px #000000;
   background-color: rgba(152, 153, 139, 0.4);
   text-align: center;
+  border-radius: 0.5rem;
 }
 
-#hero:hover {
+#hero:active {
   left: 0%;
   right: 0%;
   z-index: 1;
+  height: 50%;
   background-color: #98998bff;
-  height: fit-content;
+  border-radius: 0.5rem;
 }
 
 #news {
   position: absolute;
   top: 20%;
-  bottom: 40%;
+  bottom: 60%;
   right: 0%;
   left: 0%;
   overflow: hidden;
   cursor: pointer;
   transition: 2s;
+  border-radius: 0.5rem;
 }
 
 #news:active {
   top: 20%;
-  bottom: 40%;
+  bottom: 60%;
   left: 0%;
   right: 0%;
   z-index: 1;
   background-color: #98998bff;
   transform: scale(1.05);
+  border-radius: 0.5rem;
 }
 
 #spotlights {
   position: absolute;
   top: 40%;
-  bottom: 60%;
+  bottom: 40%;
   right: 0%;
   left: 0%;
   overflow: hidden;
@@ -227,109 +237,133 @@ ul {
   flex-direction: row;
   cursor: pointer;
   transition: 2s;
-  padding: 10px;
-  margin: 10px;
+  padding: 1%;
   background-color: rgba(152, 153, 139, 0.4);
   box-shadow: 0 0 10px #000000;
-  height: 180px;
+  border-radius: 0.5rem;
 }
 
 #spotlights:active {
   left: 0%;
   right: 0%;
   background-color: #98998bff;
+  border-radius: 0.5rem;
 }
 
 #spotlight1 {
+  position: absolute;
+  top: 41%;
+  bottom: 41%;
+  right: 50%;
+  left: 1%;
   font-size: 18px;
   text-align: center;
   background-color: rgba(152, 153, 139, 0.4);
   box-shadow: 0 0 10px #000000;
-  height: 160px;
-  width: auto;
   justify-content: center;
-  padding: 10px;
-  flex: 1;
-  margin-right: 5px;
   overflow: hidden;
+  border-radius: 0.5rem;
+  transition: 2s;
 }
 
 #spotlight1:active {
-  display: contents;
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  right: 0%;
+  left: 0%;
   background-color: #98998bff;
-  overflow: visible;
+  border-radius: 0.5rem;
+  z-index: 1;
 }
 
 #spotlight2 {
+  position: absolute;
+  top: 41%;
+  bottom: 41%;
+  right: 1%;
+  left: 50%;
   font-size: 18px;
   flex: 1;
-  margin-left: 5px;
   overflow: hidden;
   background-color: rgba(152, 153, 139, 0.4);
   box-shadow: 0 0 10px #000000;
-  padding: 10px;
-  height: 160px;
   text-align: center;
   justify-content: center;
   width: auto;
+  border-radius: 0.5rem;
+  transition: 2s;
 }
 
 #spotlight2:active {
-  display: contents;
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  right: 0%;
+  left: 0%;
   background-color: #98998bff;
-  overflow: visible;
+  border-radius: 0.5rem;
+  z-index: 1;
 }
 
 #join {
   position: absolute;
   top: 60%;
-  bottom: 80%;
+  bottom: 20%;
   right: 0%;
   left: 0%;
   overflow: hidden;
   cursor: pointer;
   transition: 2s;
+  border-radius: 0.5rem;
 }
 
 #join:active {
   left: 0%;
   right: 0%;
   background-color: #98998bff;
+  border-radius: 0.5rem;
 }
 
 #event1 {
   position: absolute;
   top: 80%;
-  bottom: 100%;
+  bottom: 0%;
   right: 33.3%;
   left: 0%;
   overflow: hidden;
   cursor: pointer;
   transition: 2s;
+  border-radius: 0.5rem;
 }
 
 #event1:active {
   top: 80%;
   left: 0%;
   right: 0%;
-  bottom: 100%;
+  bottom: 0%;
   z-index: 1;
   background-color: #98998bff;
+  border-radius: 0.5rem;
 }
 
 #weather {
+  font-size: 0.5rem;
   position: absolute;
   top: 80%;
-  bottom: 100%;
+  bottom: 0%;
   left: 66.6%;
   right: 0%;
   overflow: hidden;
   background: radial-gradient(blue, lightblue);
-  border: 1px solid blue;
-  box-shadow: 0 0 30px blue;
   cursor: pointer;
   transition: 2s;
   color: white;
+  border-radius: 0.5rem;
+}
+
+#figcaption {
+  text-transform: capitalize;
 }
 
 #weather:active {
@@ -337,7 +371,7 @@ ul {
   right: 0%;
   z-index: 1;
   background-color: #98998bff;
-  height: fit-content;
+  border-radius: 0.5rem;
 }
 
 /* MAIN SECTIONS */
@@ -448,11 +482,8 @@ form label.top input:required:valid {
 #stone {
   width: 100%;
   height: 100%;
-  max-height: calc(100% - 20px);
   object-fit: cover;
-  margin: auto;
-  display: block;
-  padding-bottom: 10%;
+  border-radius: 0.5rem;
 }
 
 #logo {

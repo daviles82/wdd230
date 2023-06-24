@@ -145,6 +145,14 @@ nav button {
 /* ----------------------------------------------------------------------------------- */
 /* MAIN */
 
+#index {
+  position: relative;
+  height: 1300px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 5px;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -162,35 +170,27 @@ body {
   --aureolin: #fbe301ff;
 }
 
-#calltoaction, #news, #event1, #event2, #weather, #join, #spotlights {
-  display: block;
-  font-size: 14px;
+#calltoaction, #news, #event1, #event2, #weather, #join, #hero {
+  font-size: 16px;
   text-align: center;
-  padding: 10px;
-  box-shadow: 0 0 10px #000000;
-  margin: 10px;
-}
-
-#hero {
-  padding: 10px;
-  box-shadow: 0 0 10px #000000;
-  margin: 10px;
-  width: auto;
-  height: auto;
-  padding: 10px;
-  text-align: center;
-  overflow: hidden;
   justify-content: center;
-  flex: 1;
-}
-
-
-
-#spotlight1, #spotlight2, #spotlight3 {
-  text-align: center;
+  width: auto;
+  background-color: rgba(152, 153, 139, 0.4);
+  padding: 1%;
   box-shadow: 0 0 10px #000000;
-  overflow: hidden;
+  margin: 5px;
 }
+
+#spotlights, #spotlight1, #spotlight2 {
+  font-size: 16px;
+  text-align: center;
+  background-color: rgba(152, 153, 139, 0.7);
+  margin: 5px;
+  padding: 1%;
+  box-shadow: 0 0 10px #000000;
+  border-radius: 0.5rem;
+}
+
 
 h1, h2 {
   font-size: 16px;
@@ -204,13 +204,120 @@ ul {
 /* ----------------------------------------------------------------------------------- */
 /* MAIN SECTIONS */
 
-#weather {
-  background: radial-gradient(blue, lightblue);
-  border: 1px solid blue;
-  box-shadow: 0 0 30px blue;
-  color: white;
+#hero {
+  position: absolute;
+  top: 0%;
+  bottom: 85%;
+  left: 0%;
+  right: 0%;
+  cursor: pointer;
+  transition: 2s;
+  box-shadow: 0 0 10px #000000;
+  background-color: rgba(152, 153, 139, 0.4);
+  text-align: center;
+  border-radius: 0.5rem;
 }
 
+#event1 {
+  position: absolute;
+  top: 15%;
+  bottom: 70%;
+  right: 0%;
+  left: 0%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 2s;
+  border-radius: 0.5rem;
+}
+
+#weather {
+  font-size: 11px;
+  position: absolute;
+  top: 30%;
+  bottom: 55%;
+  left: 0%;
+  right: 0%;
+  overflow: hidden;
+  background: radial-gradient(blue, lightblue);
+  cursor: pointer;
+  transition: 2s;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+#news {
+  position: absolute;
+  top: 45%;
+  bottom: 40%;
+  right: 0%;
+  left: 0%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 2s;
+  border-radius: 0.5rem;
+}
+
+#spotlights {
+  position: absolute;
+  top: 60%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  transition: 2s;
+  padding: 1%;
+  background-color: rgba(152, 153, 139, 0.4);
+  box-shadow: 0 0 10px #000000;
+  border-radius: 0.5rem;
+}
+
+#spotlight1 {
+  position: absolute;
+  top: 61%;
+  bottom: 20%;
+  right: 1%;
+  left: 1%;
+  text-align: center;
+  background-color: rgba(152, 153, 139, 0.4);
+  box-shadow: 0 0 10px #000000;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  transition: 2s;
+}
+
+
+#spotlight2 {
+  position: absolute;
+  top: 80%;
+  bottom: 1%;
+  right: 1%;
+  left: 1%;
+  flex: 1;
+  overflow: hidden;
+  background-color: rgba(152, 153, 139, 0.4);
+  box-shadow: 0 0 10px #000000;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  border-radius: 0.5rem;
+  transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+#figcaption {
+  text-transform: capitalize;
+}
 /* MAIN SECTIONS */
 /* ----------------------------------------------------------------------------------- */
 /* Join */
@@ -222,6 +329,7 @@ h1 {
   text-shadow: -3px 3px 0.2em grey;
   text-align: center;
 }
+
 #mainjoin {
   font-size: 16px;
   padding: 0 2%;

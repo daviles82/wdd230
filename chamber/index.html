@@ -36,7 +36,7 @@
   </nav>
   <main id="index">
     <section title="hero image"  id="hero" >
-      <h1>Hero</h1>
+      <!-- <h1>Hero</h1> -->
       <picture>
         <source srcset="images/wdd230-org-medium.jpg" media="(min-width:640px) and (max-width: 904px)">
         <source srcset="images/wdd230-org-large.jpg" media="(min-width:905px)">
@@ -60,9 +60,12 @@
     </section>
     <section title="weather" id="weather" >
       <h1>Weather</h1>
-      <p id="temp" ></p>
-      <p id="speed"></p>
-      <p id="feeltemp" ></p>
+      <img id="weather-icon"></img>
+      <span id="temp"></span>
+      <p id="figcaption"></p>
+      <hr>
+      <p><span id="speed"></span></p>
+      <p>Wind Chill: <span id="feeltemp"></span></p>
     </section>
     <section title="news" id="news" >
       <h1>News</h1>
@@ -102,7 +105,7 @@
         local community but you are able to compete on the world stage with access to resources by being part of a 
         chamber of commerce.</p>
     </section>
-    <section id="spotlights" > 
+    <section id="spotlights" > </section>
       <div title="spotlight 1" id="spotlight1" >
         <picture>
           <source srcset="images/cow-medium.jpeg" media="(min-width:640px) and (max-width: 904px)">
@@ -133,7 +136,7 @@
           veniam sed id aut reprehenderit rem exercitationem modi officiis nihil aliquid mollitia explicabo obcaecati alias 
           doloribus dolor maiores nesciunt. Optio modi adipisci vitae incidunt.</p>
       </div>
-    </section>
+    
   </main>
   <footer>
     <section id="footer-box">
@@ -146,7 +149,7 @@
       <h3>Texas Proud</h3>
     </section>
   </footer>
-  <script src="scripts/windchill.js"></script>
-  <script src="scripts/app.js" defer></script>
+  <script src="scripts/windchill.js" defer></script>
+  <script src="scripts/app.js"></script>
 </body>
 </html>
