@@ -285,7 +285,6 @@ ul {
   right: 1%;
   left: 76%;
   z-index: 1;
-  flex: 1;
   overflow: hidden;
   cursor: pointer;
   transition: 2s;
@@ -296,17 +295,16 @@ ul {
   left: 25%;
   top: 0%;
   right: 0%;
-  bottom: 40%;
-  z-index: 2;
+  bottom: 66.6%;
+  z-index: 1;
   background-color: #98998bff;
-  object-fit: cover;
+  overflow: auto;
 }
 
 #spotlight2 {
   position: absolute;
   top: 33.3%;
   bottom: 33.3%;
-  
   right: 1%;
   left: 76%;
   flex: 1;
@@ -406,7 +404,7 @@ ul {
 }
 
 #join:active {
-  top: 40%;
+  top: 66.6%;
   overflow: auto;
   left: 0%;
   right: 25%;
