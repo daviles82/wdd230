@@ -88,3 +88,67 @@ async function displayResults(weatherData) {
 }
 
 apiFetch();
+
+
+
+
+
+
+
+<div title="hero image"  id="hero" >
+  <picture>
+    <source srcset="images/welcometobrookshiremedium.jpeg" media="(min-width:640px) and (max-width: 904px)">
+    <source srcset="images/welcometobrookshirelarge.jpeg" media="(min-width:905px)">
+    <img id="stone" src="images/welcometobrookshiresmall.jpeg" alt="Brookshire Rock">
+  </picture>
+</div>
+<div title="call to action" id="calltoaction" >
+  <h1>Call to Action</h1>
+  <p>Food Drive for Homeless in Brookshire, Texas. We are collecting non-perishable food items for the homeless 
+    in Brookshire, Texas. All donations are welcome. Drop off your donations at the Brookshire Public Library 
+    during regular business hours. Your donation will help provide food for those who are struggling to make 
+    ends meet. Thank you for your support!</p>
+</div>
+<div title="event 1" id="event1" >
+  <h1>Local Event</h1>
+  <p>The Brookshire Chamber of Commerce invites you to join us for a networking event on Friday, July 14th, 
+    from 5:00 to 7:00 pm at the Brookshire Community Center. This is a great opportunity to meet other local 
+    business owners, exchange ideas, and promote your products and services. You will also get to hear from 
+    our guest speaker, John Smith, who will share some tips on how to grow your business in the post-pandemic 
+    era. Don’t miss this chance to connect with your fellow entrepreneurs and expand your network. Please RSVP 
+    by July 10th to reserve your spot. We look forward to seeing you there!
+  </p>
+</div>
+<div title="weather" id="weather" >
+  <h1>Weather</h1>
+  <img id="weather-icon" src="#" alt="weather icon">
+  <span id="temp"></span>
+  <p id="figcaption"></p>
+  <hr>
+  <p><span id="speed"></span></p>
+  <p>Wind Chill: <span id="feeltemp"></span></p>
+</div>
+<div title="news" id="news" >
+  <h1>News</h1>
+  <p>A 13 year old boy was the only passenger to notice and save his bus driver from crashing after having a 
+    heart attack. Boy stated he contributes his ability to pay attention to his surroundings because his father 
+    has decided against buying him a cell phone. </p>
+</div>
+<div title="event 2" id="event2" >
+  <h1>Surrounding Event</h1>
+  <p>The Brookshire Chamber of Commerce is excited to announce a joint mixer with the Katy Chamber of Commerce 
+    on Wednesday, August 9th, from 6:00 to 8:00 pm at the Katy Mills Mall. This is a rare opportunity to network 
+    with business owners from both communities, discover new opportunities, and showcase your products and services. 
+    You will also enjoy some refreshments, entertainment, and raffle prizes. Don’t miss this chance to broaden your 
+    horizons and make new connections. Please RSVP by August 5th to secure your spot. We hope to see you there!</p>
+</div>
+<div title="join" id="join" >
+  <picture>
+    <source srcset="images/countrybaby-medium.jpeg" media="(min-width:640px) and (max-width: 904px)"  >
+    <source srcset="images/countrybaby-large.jpeg" media="(min-width:905px)">
+    <img id="hand" src="images/countrybaby-small.jpeg" alt="hand reaching out">
+  </picture>
+  <h1>Join</h1>
+  <p>Join our organization to make a difference in the community, not only does your business benefit in the 
+    local community but you are able to compete on the world stage with access to resources by being part of a 
+    chamber of commerce.</p>
