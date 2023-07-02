@@ -182,7 +182,7 @@ body {
 }
 
 #spotlights, #spotlight1, #spotlight2 {
-  font-size: 16px;
+  font-size: 10px;
   text-align: center;
   background-color: rgba(152, 153, 139, 0.7);
   margin: 5px;
@@ -286,7 +286,18 @@ ul {
   justify-content: center;
   overflow: hidden;
   border-radius: 0.5rem;
-  transition: 2s;
+  transition: 0.5s;
+}
+
+#spotlight1:active {
+  position: absolute;
+  top: 59%;
+  bottom: 18%;
+  right: 0%;
+  left: 0%;
+  background-color: #98998bff;
+  border-radius: 0.5rem;
+  z-index: 1;
 }
 
 
@@ -304,9 +315,19 @@ ul {
   justify-content: center;
   width: auto;
   border-radius: 0.5rem;
-  transition: 2s;
+  transition: 0.5s;
 }
 
+#spotlight2:active {
+  position: absolute;
+  top: 78%;
+  bottom: -1%;
+  right: 0%;
+  left: 0%;
+  background-color: #98998bff;
+  border-radius: 0.5rem;
+  z-index: 1;
+}
 
 
 
