@@ -102,22 +102,5 @@ function getDaysSinceLastVisit() {
 
 // DAY SINCE LAST VISIT
 // ------------------------------------------------------------------------------------------------------------
-// TIME BETWEEN VISITS
-
-function updateTimeBetweenVisits() {
-  const daysSinceLastVisit = getDaysSinceLastVisit();
-  document.getElementById("time-between-visits").innerHTML = daysSinceLastVisit;
-}
-
-window.addEventListener("load", () => {
-  window.localStorage.setItem("dayLastVisited", new Date().toISOString());
-  updateTimeBetweenVisits();
-});
-
-
-console.log(document.getElementById("form_loaded_date").value);
-
-// TIME BETWEEN VISITS
-// ------------------------------------------------------------------------------------------------------------
 
 
