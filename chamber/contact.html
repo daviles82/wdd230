@@ -30,18 +30,45 @@
           <li><a href="https://daviles82.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
           <li><a href="https://daviles82.github.io/wdd230/chamber/directory.html">CONNECT</a></li>
           <li><a href="https://daviles82.github.io/wdd230/chamber/join.html">JOIN US</a></li>
-          <li><a href="https://daviles82.github.io/wdd230/chamber/contact.html">CONTACT</a></li>
+          <li class="active" ><a href="https://daviles82.github.io/wdd230/chamber/contact.html">CONTACT</a></li>
           <li><a href="https://facebook.com"><img id="facebook" src="images/facebook.png" alt="fb icon"></a></li>
           <li><a href="https://twitter.com"><img id="twitter" src="images/twitter.png" alt="twitter icon"></a></li>
         </ul>
   </nav>
-    <h1>Thank you.....</h1>
-    <section class="thankyouconfirm">
-      <p>......for joining our small Chamber Community. Please keep a lookout for further registration and 
-        membership details in your inbox. </p>
-    <img id="background" src="images/logo.PNG" alt="logo">
-    </section>
+  <main id="mainjoin">
+      <h1>Contact Us</h1>
+      <!-- <img id="background" src="images/logo.PNG" alt="logo"> -->
+    <form method="get"  action="contactback.html">
+      <fieldset>
+        <legend>Contact Us</legend>
+        <fieldset>
+          <legend>Fill in Contact Form</legend>
+          <label class="top">First Name* <input type="text" name="fname" required></label>
+          <label class="top">Last Name* <input type="text" name="lname" required></label>   
+          <label class="top">Email* <input type="email" name="email" placeholder="yourself@gmail.com" required></label>
+          <label class="top">Cell Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
+          <input type="hidden" name="form_loaded_date" value="2023-06-16T13:44:15.000Z">
+          <label class="finishing">General Inquiries<textarea name="comments" id="comments" cols="10" rows="5"></textarea></label>
+        </fieldset>
+        <fieldset id="contact">
+          <legend>Contact Info</legend>
+          <div>Address: 123 143FM, Brookshire, Tx. 77423</div>
+          <div>Office hours: Open 24 hours a day</div>
+          <div>Days opened: 7 days a week, 365 days a year</div>
+          <fieldset id="contact">
+            <legend>Point of Contact</legend>
+            <div>Chamber President</div>
+            <div>David Aviles</div>
+            <div>Phone: 123-555-1234</div>
+            <div>President@BrookshireChamber.com</div>
+          </fieldset>
+        </fieldset>
 
+      </fieldset>
+      <input type="submit" value = "Reach Out" class="submitBtn">
+    </form>
+      
+  </main>
   <footer>
     <section id="footer-box">
       <div>
