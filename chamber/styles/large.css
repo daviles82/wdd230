@@ -40,7 +40,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107));
+  /* filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107)); */
 }
 
 h5 {
@@ -381,9 +381,10 @@ ul {
   overflow: hidden;
   cursor: pointer;
   transition: 2s;
-  background: radial-gradient(blue, lightblue);
-  border: 1px solid blue;
-  color: white;
+  background-color:  rgba(152, 153, 139, 0.7);
+  /* background: radial-gradient(blue, lightblue); */
+  /* border: 1px solid blue; */
+  color: black;
 }
 
 #weather:active {
@@ -424,7 +425,7 @@ ul {
 
 
 h1 {
-  text-shadow: -3px 3px 0.2em grey;
+  /* text-shadow: -3px 3px 0.2em grey; */
   text-align: center;
 }
 #mainjoin {
@@ -807,6 +808,7 @@ main #directory {
 
 .menu button {
 	border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 #gridicon, #listicon {

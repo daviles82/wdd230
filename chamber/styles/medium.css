@@ -38,7 +38,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107));
+  /* filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107)); */
 }
 
 h5 {
@@ -161,7 +161,7 @@ body {
 #spotlight1, #spotlight2, #spotlight3, #spotlights{
   font-size: 20px;
   text-align: center;
-  background-color: rgba(152, 153, 139, 0.7);
+  background-color: rgba(152, 153, 139, 0.4);
   margin: 5px;
   padding: 1%;
   box-shadow: 0 0 10px #000000;
@@ -355,10 +355,11 @@ ul {
   left: 66.6%;
   right: 0%;
   overflow: hidden;
-  background: radial-gradient(blue, lightblue);
+  background-color:  rgba(152, 153, 139, 0.4);
+  /* background: radial-gradient(blue, lightblue); */
   cursor: pointer;
   transition: 2s;
-  color: white;
+  color: black;
   border-radius: 0.5rem;
 }
 
@@ -382,7 +383,7 @@ ul {
 
 
 h1 {
-  text-shadow: -3px 3px 0.2em grey;
+  /* text-shadow: -3px 3px 0.2em grey; */
   text-align: center;
 }
 #mainjoin {
@@ -757,6 +758,7 @@ main #directory {
 
 .menu button {
 	border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 #gridicon, #listicon {

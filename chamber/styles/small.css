@@ -50,7 +50,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107));
+  /* filter: drop-shadow(-5px -5px .1em rgb(113, 107, 107)); */
 }
 
 header {
@@ -238,10 +238,10 @@ ul {
   left: 0%;
   right: 0%;
   overflow: hidden;
-  background: radial-gradient(blue, lightblue);
+  /* background: radial-gradient(blue, lightblue); */
   cursor: pointer;
   transition: 2s;
-  color: white;
+  color: black;
   border-radius: 0.5rem;
 }
 
@@ -326,7 +326,7 @@ ul {
 
 
 h1 {
-  text-shadow: -3px 3px 0.2em grey;
+  /* text-shadow: -3px 3px 0.2em grey; */
   text-align: center;
 }
 
@@ -681,6 +681,7 @@ main #directory {
 
 .menu button {
 	border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 #gridicon, #listicon {
