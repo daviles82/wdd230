@@ -523,13 +523,21 @@ img[data-src] {
   filter: blur(0.6em);
 }
 
+
 .right {
   filter: blur(0em);
   transition: filter 3s;
   box-shadow: 0 0 15px #000000;
-  height: 100%;
+  height: 100px;
+
   width: auto;
   object-fit: cover;
+}
+
+#first img, #second img, #third img, #fourth img, #fifth img  {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .right {
@@ -538,9 +546,6 @@ img[data-src] {
   box-shadow: 0 0 15px #000000;
 }
 
-#first:hover .right, #second:hover .right, #third:hover .right, #fourth:hover .right, #fifth:hover .right{
-  display: none;
-}
 
 .discover p {
   padding: 10px;
@@ -552,7 +557,7 @@ img[data-src] {
   background-color: rgba(152, 153, 139, 0.7);
   box-shadow: 0 0 20px #000000;
   margin: 10px;
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
   padding: 2%;
 }
@@ -564,15 +569,6 @@ img[data-src] {
   overflow: hidden;
 }
 
-#first:hover {
-  background-color: #98998bff;
-  transform: scale(1.1);
-  z-index: 1;
-  box-shadow: 0 0 50px #000000;
-  top: 12.6%;
-  bottom: 62.4%;
-  padding: 5%;
-}
 
 #second {
   top: 33.2%;
@@ -580,15 +576,6 @@ img[data-src] {
   overflow: hidden;
 }
 
-#second:hover {
-  background-color: #98998bff;
-  transform: scale(1.1);
-  z-index: 1;
-  box-shadow: 0 0 50px #000000;
-  top: 29.2%;
-  bottom: 45.8%;
-  padding: 5%;
-}
 
 #third {
   top: 49.8%;
@@ -596,15 +583,6 @@ img[data-src] {
   overflow: hidden;
 }
 
-#third:hover {
-  background-color: #98998bff;
-  transform: scale(1.1);
-  z-index: 1;
-  box-shadow: 0 0 50px #000000;
-  top: 45.8%;
-  bottom: 29.2%;
-  padding: 5%;
-}
 
 #fourth {
   top: 66.4%;
@@ -612,15 +590,6 @@ img[data-src] {
   overflow: hidden;
 }
 
-#fourth:hover {
-  background-color: #98998bff;
-  transform: scale(1.1);
-  z-index: 1;
-  box-shadow: 0 0 50px #000000;
-  top: 62.4%;
-  bottom: 12.6%;
-  padding: 5%;
-}
 
 #fifth {
   top: 83%;
@@ -628,15 +597,6 @@ img[data-src] {
   overflow: hidden;
 }
 
-#fifth:hover {
-  background-color: #98998bff;
-  transform: scale(1.1);
-  z-index: 1;
-  box-shadow: 0 0 50px #000000;
-  top: 76%;
-  bottom: -7%;
-  padding: 5%;
-}
 
 #background {
   display: flex;
@@ -650,7 +610,7 @@ img[data-src] {
 
 #discovermain {
   position: relative;
-  height: 800px;
+  height: 1200px;
   margin-top: 2%;
   margin-bottom: 2%;
   transition: filter 2s;
@@ -668,17 +628,6 @@ img[data-src] {
   transition: 3s;
 }
 
-.reveal {
-  position: relative;
-  transform: translateY(200px);
-  opacity: 0;
-  transition: all 2s ease;
-}
-
-.reveal.active{
-  transform: translateY(0px);
-  opacity: 1;
-}
 
 /* STAGING CODE */
 /* ----------------------------------------------------------------------------------- */
