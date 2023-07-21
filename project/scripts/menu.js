@@ -147,6 +147,8 @@ document.querySelector("#submitBtn").addEventListener("click", async () => {
   console.log(`Fruit 2: ${fruitSelect2.value}`);
   console.log(`Fruit 3: ${fruitSelect3.value}`);
 
+  
+
   const specialInstructions = instructionsInput.value;
 
   const totalNutritions = await displayTotalNutritionalValue(
@@ -161,6 +163,9 @@ document.querySelector("#submitBtn").addEventListener("click", async () => {
   } else {
     totalOrders = parseInt(totalOrders);
   }
+
+  const form = document.querySelector("#orderForm");
+  form.reset();
 
   const order = {
     date: orderDate,
@@ -211,8 +216,7 @@ document.querySelector("#submitBtn").addEventListener("click", async () => {
   fruitSelect2.selectedIndex = 0;
   fruitSelect3.selectedIndex = 0;
 
-  // const form = document.querySelector("form");
-  // form.reset();
+
 });
 
  
