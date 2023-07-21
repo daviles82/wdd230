@@ -1,0 +1,558 @@
+/* ----------------------------------------------------------------------------------- */
+/* HEADER */
+
+@media only screen and (min-width: 40rem) and (max-width: 904px) {
+
+  body {
+    min-width: 40rem;
+    max-width: 904px;
+    margin: 0 auto;
+    --uranian-blue: #b1d5edff;
+    --mantis: #82c566ff;
+    --celadon: #b2d095ff;
+    --pearl: #e2dac3ff;
+    --tan: #e6be8aff;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 0;
+  }
+  header {
+    min-width: 905px;
+    height: 55px;
+    padding: 0;
+  }
+  nav div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 0;
+    position: relative;
+  }
+
+  nav li, footer li{
+    display: inline-block;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  nav a:hover {
+    background: #82c566ff;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  #websitename {
+    position: absolute;
+    padding: 25px 20px;
+    font-size: 15px;
+  }
+
+  header {
+    z-index: 2;
+    top: 0;
+  }
+
+  /* HEADER */
+  /* ----------------------------------------------------------------------------------- */
+
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+
+
+  footer {
+    background: #b1d5edff;
+  }
+
+  main div h1:nth-child(1) {
+    background-color: white;
+    border-radius: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    right: 35%;
+    object-position: center;
+    text-align: center;
+  }
+
+
+  #reasonfruveg {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    right: 25%;
+  }
+
+  main div:nth-child(2) h1{
+    background-color: white;
+    border-radius: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    right: 35%;
+    object-position: center;
+    text-align: center;
+  }
+
+
+  #reasonorganic {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    bottom: 52%;
+    left: 5%;
+    right: 45%;
+  }
+
+  #reasonenvironment h1 {
+    z-index: 4;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    right: 33%;
+    object-position: center;
+    text-align: center;
+  }
+
+  #reasonenvironment p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    bottom: 27%;
+    left: 45%;
+    right: 5%;
+  }
+
+  #fruitveg {
+    position: absolute;
+    top: 0%;
+    bottom: 75%;
+    width: 100%;
+    height: 848.75px;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  #organicfarming {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    height: 848.75px;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  #environment {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    bottom: 25%;
+    height: 848.75px;
+    object-fit: cover;
+  }
+
+  #weather {
+    position: absolute;
+    top: 75%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+  #mainindex {
+    position: relative;
+    height: 3395px;
+  }
+
+  nav {
+    background: #b1d5edff;
+  }
+
+  #currentweather {
+    left: 0%;
+    right: 75%;
+  }
+
+  #currentweather {
+    position: absolute;
+    top: 29.3%;
+    bottom: 10.7%;
+    margin: 3rem;
+  }
+
+  #day1, #day2, #day3 {
+    position: absolute;
+    top: 30%;
+    bottom: 10%;
+    margin: 3rem;
+  }
+  #day1 {
+    left: 25%;
+    right: 50%;
+  }
+
+  #day2 {
+    left: 50%;
+    right: 25%;
+  }
+
+  #day3 {
+    left: 75%;
+    right: 0%;
+  }
+
+  h2, #currentweather p:nth-child(1) {
+    font-size: 15px;
+  }
+
+  #weather-icon, #day1-icon, #day2-icon, #day3-icon {
+    width: 100%;
+  }
+
+  #instagram {
+    background: transparent;
+  }
+
+  #facebook {
+    max-width: 1.4rem;
+  }
+
+  #instagram {
+    max-width: 2.1rem;
+  }
+
+  #twitter {
+    max-width: 1.6rem;
+  }
+
+  #reasonfruveg p, #reasonorganic p {
+    color: black;
+    font-size: 0.9rem;
+  }
+
+  #reasonfruveg p a, #reasonorganic p a {
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #b2d095ff;
+  }
+
+  #reasonfruveg img {
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+  }
+  
+  #modifiedtime, ul li p, ul li {
+    font-size: 11px;
+    color: black;
+  }
+
+  .contact {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    z-index: 5;
+  }
+  
+  .contact-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 20px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .contact-content input {
+    border-radius: 8px;
+  }
+
+
+  #mainaboutus {
+    height: 1500px;
+    position: relative;
+    overflow: visible;
+  }
+
+  #mainaboutus div:nth-child(1) img {
+    position: absolute;
+    top: 5%;
+    bottom: 60%;
+    left: 2%;
+    right: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    width: 45%;
+    height: 600px;
+    /* border-color: red;
+    border-style: solid; */
+    z-index: 5;
+  }
+
+
+  #mainaboutus div:nth-child(2) {
+    position: absolute;
+    top: 5%;
+    bottom: 60%;
+    left: auto;
+    right: 2%;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    width: 45%;
+    height: 600px;
+    background: #e6be8aff;
+  }
+  
+  
+  
+
+  #mainaboutus h3:nth-child(1) {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  #mainaboutus div:nth-child(3) h3 {
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+    z-index: 1;
+    top: 52%;
+    left: 35%;
+    right: 35%;
+    object-position: center;
+    text-align: center;
+
+  }
+
+  #mainaboutus div:nth-child(3) p {
+    position: absolute;
+    text-align: center;
+    top: 56%;
+    bottom: 24%;
+    left: 2%;
+    right: 2%;
+    background: #b2d095ff;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 2s;
+  }
+
+  #mainaboutus div:nth-child(3) p:hover {
+    top: 49%;
+    z-index: 3;
+  }
+  
+
+  #mainaboutus div:nth-child(2) a {
+    text-decoration: none;
+    color: black;
+    background: #b2d095ff;
+    padding: 2px;
+    border-radius: 8px;
+    border-color: #82c566ff;
+    border-style: solid;
+  }
+
+  #mainaboutus div:nth-child(4) {
+    background: #e2dac3ff;
+    position: absolute;
+    text-align: center;
+    top: 78%;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 2s;
+  }
+
+  #mainaboutus div:nth-child(4):hover {
+    background: #e2dac3ff;
+    position: absolute;
+    text-align: center;
+    top: 74%;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+
+  /* -----------------------------------------------------------------------------------
+  JOIN */
+
+  #mainfresh {
+    position: relative;
+    height: 1200px;
+  }
+
+
+
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .5rem 2%;
+  }
+
+  form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+  }
+
+  form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+  }
+
+  form #submitBtn {
+    background-color:#e6be8aff;
+    color: black;
+    border-radius: 0.5rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem;
+    width: 20%;
+    max-width: 20rem;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 0.5rem;
+    margin: 2rem 0 2rem;
+  }
+
+  form div label{
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+    font-size: 20px;
+    margin: 0.5rem 0 1rem;
+  }
+
+  form input, form select {
+    border-radius: 3px;
+    height: 1.5rem;
+    width: 20rem;
+  }
+
+  #nut {
+    position: absolute;
+    left: 1%;
+    top: 78%;
+    width: 100%;
+    bottom: 12%;
+  }
+
+  #bag {
+    z-index: 1;
+    position: absolute;
+    top: 88%;
+    bottom: 2%;
+    left: 1%;
+    overflow: hidden;
+    background: #b2d095ff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 2s;
+  }
+
+  #bag:hover {
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    bottom: 2%;
+    left: 1%;
+    overflow: hidden;
+    background: #b2d095ff;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+}
