@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bountiful Foods Fresh ordering page">
+  <title>Bountiful Foods Fresh</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <header>   
+    <div id="websitename">BOUNTIFUL FOODS</div>
+    <nav>
+      <div>
+        <button id="hamburgerBtn"><span>☰</span><span>X</span></button>
+        <ul>
+          <li><img id="logo" src="#" alt="logo"></li>
+          <li><a href="https://daviles82.github.io/wdd230/project/index.html">Home</a></li>
+          <li><a href="https://daviles82.github.io/wdd230/project/fresh.html">Fresh</a></li>
+          <li><a href="https://daviles82.github.io/wdd230/project/aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="mainfresh">
+    <form method="#" action="#">
+      <h1>Fruit Drink Order</h1>
+      <fieldset>
+        <legend>Create your very own Juice</legend>
+        <div>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" />
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+      
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" />
+        </div>
+        <div>
+          <label for="fruit1">Fruit 1:</label>
+          <select id="fruit1" data-is-valid>
+            <option value="">Select a fruit</option>
+          </select>
+          <label for="fruit2">Fruit 2:</label>
+          <select id="fruit2" data-is-valid>
+            <option value="">Select a fruit</option>
+          </select>
+          <label for="fruit3">Fruit 3:</label>
+          <select id="fruit3" data-is-valid>
+            <option value="">Select a fruit</option>
+          </select>
+        </div>  
+        <textarea id="instructions" placeholder="Special instructions"></textarea>
+
+        <button id="submitBtn">Submit</button>
+      </fieldset>
+    </form>
+    <div id="nut">
+      <h2>Nutrient Information:</h2>
+      <ul id="nutrientInfo"></ul>
+    </div>
+
+    <div id="bag">
+      <h2>Basket</h2>
+      <ul id="orderList"></ul>
+    </div>
+  </main>  
+  <footer>
+    <div>
+      <ul>
+        <li><p>Last Modified:<span id="modifiedtime" ></span> </p></li>
+        <li><a class="location" href="https://openweathermap.org/">OpenWeatherMap</a></li>
+        <li><a href="https://goo.gl/maps/oEE72qCXFKjqU11w8">Location</a></li>
+        <li>B F @ 2023</li>
+        <li><a href="https://www.instagram.com/"><img id="instagram" src="images/instagram.png" alt="instagram"></a></li>
+        <li><a href="https://www.facebook.com/"><img id="facebook" src="images/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://twitter.com/"><img id="twitter" src="images/twitter.png" alt="twitter"></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/script.js"></script>  
+</body>
+</html>
