@@ -1,11 +1,11 @@
 /* ----------------------------------------------------------------------------------- */
 /* HEADER */
 
-@media only screen and (min-width: 40rem) and (max-width: 904px) {
+@media only screen and (min-width: 39rem) and (max-width: 905px) {
 
   body {
-    min-width: 40rem;
-    max-width: 904px;
+    min-width: 39rem;
+    max-width: 905px;
     margin: 0 auto;
     --uranian-blue: #b1d5edff;
     --mantis: #82c566ff;
