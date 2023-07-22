@@ -183,6 +183,8 @@ document.querySelector("#submitBtn").addEventListener("click", async () => {
   orders.push(order);
   localStorage.setItem("orders", JSON.stringify(orders));
 
+  
+
   const basketList = document.querySelector("#orderList");
   const listItem = document.createElement("li");
   listItem.textContent = `
@@ -197,6 +199,8 @@ document.querySelector("#submitBtn").addEventListener("click", async () => {
     Nutrient Information: ${formatNutrientInformation(totalNutritions)}
   `;
   basketList.appendChild(listItem);
+
+  
 
   const orderDateElement = document.createElement("span");
   orderDateElement.textContent = order.date;
@@ -216,7 +220,7 @@ document.querySelector("#submitBtn").addEventListener("click", async () => {
   fruitSelect2.selectedIndex = 0;
   fruitSelect3.selectedIndex = 0;
 
-
+  
 });
 
  

@@ -1,0 +1,447 @@
+/* ----------------------------------------------------------------------------------- */
+/* HEADER */
+
+@media only screen and (max-width: 40rem) {
+
+  body {
+    min-width: 25rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    --uranian-blue: #b1d5edff;
+    --mantis: #82c566ff;
+    --celadon: #b2d095ff;
+    --pearl: #e2dac3ff;
+    --tan: #e6be8aff;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 0;
+  }
+  header {
+    min-width: 25rem;
+    height: 55px;
+    padding: 0;
+  }
+
+  nav div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 0;
+    position: relative;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  nav a:hover {
+    background: #82c566ff;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  #websitename {
+    position: absolute;
+    padding: 25px 20px;
+    font-size: 15px;
+  }
+
+  header {
+    z-index: 2;
+    top: 0;
+  }
+
+  nav {
+    background: #b1d5edff;
+  }
+
+  /* HEADER */
+  /* ----------------------------------------------------------------------------------- */
+  /* MAININDEX */
+
+  main div:nth-child(1) h1 {
+    display: block;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+
+  #reasonfruveg {
+    display: block;
+    padding: 10px;
+    z-index: 1;
+    margin-top: 5px;
+    border-color: #b1d5edff;
+    border-style: solid;
+  }
+
+  main div:nth-child(2) h1{
+    background-color: white;
+    object-position: center;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  #reasonorganic {
+    display: block;
+    padding: 10px;
+    z-index: 1;
+    border-color: #b1d5edff;
+    border-style: solid;
+  }
+
+  #reasonenvironment h1 {
+    display: none;
+    border-color: red;
+    border-style: solid;
+  }
+
+  #reasonenvironment p {
+    display: none;
+    border-color: red;
+    border-style: solid;
+  }
+
+
+  #fruitveg, #organicfarming, #environment {
+    display: none;
+  }
+
+
+  #reasonfruveg p, #reasonorganic p {
+    color: black;
+    font-size: 0.9rem;
+  }
+
+
+  /* LINKS TO EXTERNAL OR POP UP */
+  #reasonfruveg p a, #reasonorganic p a {
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #b2d095ff;
+  }
+
+
+  /* IMAGE FOR MAP LINK */
+  #reasonfruveg img {
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+  }
+
+  /* MAININDEX */
+  /* ------------------------------------------------------------------------------- */
+  /* WEATHER */
+
+
+  #currentweather {
+    display: block;
+    border-color: #b1d5edff;
+    border-style: solid;
+    text-align: center;
+  }
+
+
+
+  #day1, #day2, #day3 {
+    display: block;
+    border-color: #b1d5edff;
+    border-style: solid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h2, #currentweather p:nth-child(1) {
+    font-size: 15px;
+  }
+
+  #weather-icon, #day1-icon, #day2-icon, #day3-icon {
+    width: 25%;
+  }
+
+   /* WEATHER */
+  /* ------------------------------------------------------------------------------- */
+  /* ABOUTUS */
+  
+  #mainaboutus h3 {
+    display: block;
+    text-align: center;
+    margin-top: 25%;
+    z-index: 5;
+  }
+
+  #mainaboutus div:nth-child(1) img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-color: #b1d5edff;
+    border-style: solid;
+    z-index: 1;
+  }
+
+
+  #mainaboutus div:nth-child(2) {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    object-fit: cover;
+    object-position: center;
+    border-color: #b1d5edff;
+    border-style: solid;
+  }
+  
+  
+  
+  #mainaboutus div:nth-child(3) h3 {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    z-index: 1;
+    object-position: center;
+    text-align: center;
+  }
+
+  #mainaboutus div:nth-child(3) p {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-color: #b1d5edff;
+    border-style: solid;
+  }
+
+  #mainaboutus div:nth-child(4) {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-color: #b1d5edff;
+    border-style: solid;
+    margin-bottom: 2%;
+  }
+
+  
+  #mainaboutus div:nth-child(2) a {
+    text-decoration: none;
+    color: black;
+    background: #b2d095ff;
+    border-radius: 3px;
+    z-index: 1;
+  }
+
+
+
+
+
+  /* ABOUTUS */
+  /* ----------------------------------------------------------------------------------- */
+  /* FRESH */
+
+  #mainfresh {
+    max-width: 40rem;
+    min-width: 25rem;
+  }
+
+  /* FORM OUTLINE */
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .5rem 2%;
+  }
+
+  /* FORM DESCRIPTION */
+  form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+  }
+
+  #orderForm h1 {
+    display: block;
+    margin-top: 25%;
+    font-size: 18px;
+    text-align: center;
+  }
+  form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+  }
+
+  form #submitBtn {
+    background-color:#e6be8aff;
+    color: black;
+    border-radius: 0.5rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem;
+    width: auto;
+  }
+
+  textarea {
+    width: 90%;
+    padding: 5px;
+    border-radius: 0.5rem;
+    margin: 2rem 0 2rem;
+  }
+
+  form div label{
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+    font-size: 20px;
+    margin: 0.5rem 0 1rem;
+  }
+
+  form input, form select {
+    border-radius: 3px;
+    height: 1.5rem;
+    width: 90%;
+  }
+
+  #nut {
+    width: 100%;
+    display: block;
+  }
+
+  #bag {
+    z-index: 1;
+    background: #b2d095ff;
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+    width: 97.8%;
+    margin-bottom: 1%;
+  }
+
+  #orderList {
+    overflow-y: auto;
+  }
+
+
+  /* FRESH */
+  /* ------------------------------------------------------------ */
+  /* FOOTER */
+
+  footer li{
+    display: inline-block;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  footer {
+    background: #b1d5edff;
+  }
+
+
+  #instagram {
+    background: transparent;
+  }
+
+  #facebook {
+    max-width: 1.4rem;
+  }
+
+  #instagram {
+    max-width: 2.1rem;
+  }
+
+  #twitter {
+    max-width: 1.6rem;
+  }
+
+  #modifiedtime, ul li p, ul li {
+    font-size: 11px;
+    color: black;
+  }
+
+  /* FOOTER */
+  /* ---------------------------------------------------------------------------- */
+  /* POPUP FORM */
+
+  .contact {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    z-index: 5;
+  }
+  
+  .contact-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 20px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .contact-content input {
+    border-radius: 8px;
+  }
+
+
+
+
+}
