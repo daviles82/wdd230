@@ -54,9 +54,6 @@
     background: #82c566ff;
   }
 
-  /* nav button {
-    display: none;
-  } */
 
   #websitename {
     text-align: center;
@@ -131,6 +128,13 @@
   nav ul.open {
     display: flex;
     flex-direction: column;
+  }
+
+  nav div ul.open {
+    position: absolute;
+    top: 55px; /* adjust this value as needed */
+    right: 0;
+    background: #b1d5edff;
   }
 
   /* HEADER */

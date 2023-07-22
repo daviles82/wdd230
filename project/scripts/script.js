@@ -75,3 +75,8 @@ function toggleMenu() {
 
 const x = document.getElementById("menuBtn");
 x.onclick = toggleMenu;
+
+document.addEventListener("DOMContentLoaded", () => {
+  const x = document.getElementById("menuBtn");
+  x.onclick = toggleMenu;
+});
