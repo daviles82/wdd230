@@ -1,11 +1,11 @@
 const captionDesc = document.querySelector("#current-desc");
 const weatherIcon = document.querySelector("#weather-icon");
 
-const url = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad,CA,&units=imperial&appid=b5107679a673ae43d16f86f8c43b3eea";
+const url2 = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad,CA,&units=imperial&appid=b5107679a673ae43d16f86f8c43b3eea";
 
 async function apiFetch() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url2);
     if (response.ok) {
       const data = await response.json();
       displayResults(data);

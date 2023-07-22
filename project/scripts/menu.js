@@ -33,7 +33,6 @@ async function getFruitOrVegData() {
 getFruitOrVegData();
 
 async function displayTotalNutritionalValue(fruitId1, fruitId2, fruitId3) {
-  const url = "https://daviles82.github.io/wdd230/project/menu.json";
   const response = await fetch(url);
   const data = await response.json();
 
