@@ -23,6 +23,7 @@
     min-width: 40rem;
     height: 55px;
     padding: 0;
+    position: relative;
   }
   nav div ul {
     list-style: none;
@@ -73,8 +74,9 @@
     top: 1%;
     right: 20px; 
     margin: 0;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
   }
   
 
