@@ -122,11 +122,11 @@
     left: 5px; 
   }
 
-  nav ul.open {
+  /* nav ul.open {
     display: flex;
     flex-direction: column;
-  }
-  
+  } */
+
   /* HEADER */
   /* ----------------------------------------------------------------------------------- */
   /* MAININDEX */
