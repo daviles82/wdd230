@@ -54,14 +54,22 @@
     background: #82c566ff;
   }
 
-  nav button {
+  /* nav button {
     display: none;
-  }
+  } */
 
   #websitename {
-    position: absolute;
+    text-align: center;
     padding: 25px 20px;
     font-size: 15px;
+    flex: 1;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
   }
 
   header {
@@ -69,10 +77,50 @@
     top: 0;
   }
 
+  header {
+    background: #b1d5edff;
+    min-width: 25rem;
+    height: 55px;
+    padding: 0;
+  }
+
   nav {
     background: #b1d5edff;
   }
+  
+  nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    color: black;
+  }
 
+
+  nav ul {display: none;}
+  nav ul.open {display: block;}
+
+  #menuBtn span:nth-child(1) {display: block;}
+  #menuBtn span:nth-child(2) {display: none;}
+
+  #menuBtn.open span:nth-child(1) {display: none;}
+  #menuBtn.open span:nth-child(2) {display: block;}
+
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 5px; 
+  }
   /* HEADER */
   /* ----------------------------------------------------------------------------------- */
   /* MAININDEX */
@@ -284,7 +332,7 @@
 
   #orderForm h1 {
     display: block;
-    margin-top: 25%;
+    margin-top: 80px;
     font-size: 18px;
     text-align: center;
   }

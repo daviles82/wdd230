@@ -68,6 +68,15 @@
     top: 0;
   }
 
+  #logo {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    margin: 0;
+    width: 70px;
+    height: 70px;
+  }
+
   /* HEADER */
   /* ----------------------------------------------------------------------------------- */
 
@@ -468,7 +477,12 @@
     height: 1200px;
   }
 
-
+  #orderForm h1 {
+    display: block;
+    margin-top: 80px;
+    font-size: 18px;
+    text-align: center;
+  }
 
   form fieldset {
     margin: 2rem 0;
