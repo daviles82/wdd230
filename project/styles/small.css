@@ -132,7 +132,7 @@
 
   nav div ul.open {
     position: absolute;
-    top: 55px; /* adjust this value as needed */
+    top: 55px; 
     right: 0;
     background: #b1d5edff;
   }
